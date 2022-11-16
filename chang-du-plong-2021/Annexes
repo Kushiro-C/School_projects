@@ -1,0 +1,48 @@
+Projet Long
+
+Liens :
+
+Fourier and Real time analysis
+https://www.youtube.com/watch?v=spUNpyF58BY
+https://www.nti-audio.com/en/support/know-how/fast-fourier-transform-fft#:~:text=Fast%20Fourier%20Transformation%20FFT%20%2D%20Basics,frequency%20information%20about%20the%20signal.
+
+https://www.hindawi.com/journals/complexity/2021/5627626/
+
+Music and voice : Audio Source Separation Problem
+https://www.researchgate.net/publication/236664200_Acoustic_differences_in_the_speaking_and_singing_voice
+
+https://towardsdatascience.com/audio-ai-isolating-vocals-from-stereo-music-using-convolutional-neural-networks-210532383785
+
+Loud-soft / high-low pitched sounds
+https://spark.iop.org/separating-loudsoft-loudness-highlow-pitch
+
+https://www.vedantu.com/question-answer/differentiate-between-a-high-pitch-sound-and-a-class-11-physics-cbse-60a1eceb192b8950cd1ffa66
+
+Music genre
+https://bestfriendsclub.ca/identify-music-genres/
+
+
+amélioration fourrier, notions de piques, clés
+https://interstices.info/de-fourier-a-la-reconnaissance-musicale/
+
+rnn, reseau neurones, LSTM
+https://blog.octo.com/les-reseaux-de-neurones-recurrents-des-rnn-simples-aux-lstm/
+
+calcul à partir de FFT (dB etc ..)
+https://www.dsprelated.com/freebooks/mdft/Decibels.html
+
+algo fast fourrier
+https://introcs.cs.princeton.edu/java/97data/FFT.java.html
+
+quelques manieres d'enregistrer
+https://www.programcreek.com/java-api-examples/?api=javax.sound.sampled.AudioFormat
+
+
+Free License Musics Source :
+https://www.bensound.com
+
+Zero crossing rate data :
+https://monolith.asee.org/documents/zones/zone1/2008/student/ASEE12008_0044_paper.pdf
+
+Nyquist–Shannon sampling theorem :
+https://en.wikipedia.org/wiki/Nyquist%E2%80%93Shannon_sampling_theorem

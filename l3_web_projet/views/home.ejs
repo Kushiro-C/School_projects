@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="courte description">
+        <link href="header_footer.css" rel="stylesheet">
+        <link href="connexion.css" rel="stylesheet">
+        <link href="home.css" rel="stylesheet">
+        <link href="sidebar.css" rel="stylesheet">
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://unpkg.com/js-image-zoom@0.7.0/js-image-zoom.js" type="application/javascript"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="home.js" type="text/javascript"></script>
+        <script src="jqueryZoom.js" type="text/javascript"></script>
+        <title>
+            Planet
+        </title>
+    </head>
+
+<body>
+
+    <header class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0 shadow">
+        <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3">Planet, our planet is connected</a>
+        <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <ul class="navbar-nav px-3">
+            <li>
+                <% if(!isConnected) {%>
+                    <form action="auth" method="POST">
+                        <table>
+                            <tr>
+                                <td><input type="email" class="InputBoxC" name="email" placeholder="Votre email" required></td>
+                                <td><input type="password" class="InputBoxC" name="password" placeholder="Mot de passe" required></td>
+                                <td><input type="submit" class="inputform" name="login" value="Connexion"></td>
+                            </tr>
+                        </table>
+                    </form>
+                <%} else {%>
+                    <li>
+                        <form>
+                            <span class="navbar-brand col-md-3 col-lg-2 me-0 px-3" id="pname">
+                                <%=userData[0].lastName%> <%=userData[0].firstName%>
+                            </span>
+                            <a class="inputform" href="logout">Déconnexion</a>
+                        </form>
+                    </li>
+                <%}%>
+            </li>
+        </ul>
+    </header>
+
+    <div class="container-fluid row">
+        <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+            <div class="position-sticky pt-3">
+                <% if (isConnected) { %>
+                    <input type="text" id="search_input" name="search" class="checkvalid" placeholder="Rechercher" required >
+                    <input type="submit" name="rechercher" value="rechercher" style="display:none;">
+                <% } %>
+                <ul class="nav flex-column">
+                    <label class="link_button">
+                        <input type="checkbox" value="@everyone" checked>
+                        @everyone
+                    </label><br>
+                    <% if(isConnected) {%>
+                    <label class="link_button">
+                        <input type="checkbox" value="<%=userData[0].nickname%>">
+                        Moi : <%=userData[0].nickname%>
+                    </label><br>
+                    <label class="link_button" id="abonnement">
+                        <input type="checkbox" value="abonnement">
+                        Abonnements
+                    </label><br>
+                    <%}%>
+                    <%
+                    if(isConnected && listUsers.length!=0){
+                    %>
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span>Users</span>
+                    </h6>
+                        <%
+                        listUsers.forEach(function(data){
+                        %>
+                            <label class="link_button">
+                                <input type="checkbox" value="<%=data.nickname%>">
+                                <%=data.nickname%>
+                            </label><br>
+                        <%}) %>
+                    <%}%>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+
+    <div id="publication" class="container-fluid row">
+        <div>
+            <h1>Mon fil d'actualité</h1>
+        </div>
+        <% if(isConnected) {%>
+            <div class="connectedUser" id="<%=userData[0].pid%>"></div>
+            <div class="userName" id="<%=userData[0].nickname%>"></div>
+            <div id="send_message_div" class="container-fluid row">
+                <textarea id="toSend" class="checkvalid" rows="5" cols="50" minlength="5" maxlength="500" placeholder="Envoyez un message !" required=""></textarea>
+                <div>
+                    <button class="bouton_publier">publier</button>
+                </div>
+            </div>
+        <%}%>
+
+        <div id="app"></div>
+    </div>
+    </main>
+</body>
+</html>
+

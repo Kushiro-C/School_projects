@@ -1,0 +1,7 @@
+INSERT INTO person(lastName, firstName, pwd, email, nickname) VALUES 
+('Dupont','Chris',MD5('mdp1'),'a@b', '@Chris'),
+('Mad','Marin',MD5('mdp1'),'aa@b', '@Marin'),
+('Auto','Damien',MD5('mdp1'),'aaa@b', '@Damien'),
+('Pumas','Charlenne',MD5('mdp1'),'aaaa@b', '@Charlenne'),
+('Rose','Derick',MD5('mdp1'),'aaaaa@b', '@Derick'),
+('Springboks','Antoine',MD5('mdp1'),'aaaaaa@b', '@Antoine');

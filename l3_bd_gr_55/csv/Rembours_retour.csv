@@ -1,0 +1,16 @@
+id_order,montant,statut,date_retour,date_delai,raison
+51,4,remboursé,02-11-22,19-01-23,aime pas
+61,2,remboursé,20-11-22,23-12-22,aime pas
+8,5,remboursé,20-11-22,10-01-23,taille
+69,5,remboursé,13-11-22,10-01-23,mauvais état
+37,1,en cours, 30-11-22,26-12-22,aime pas
+83,1,remboursé,02-12-22,18-01-23,aime pas
+22,2,remboursé,14-12-22,03-01-23,taille
+19,3,remboursé,09-12-22,30-12-22,aime pas
+52,1,remboursé,11-11-22,19-01-23,taille
+13,1,remboursé,03-11-22,01-02-23,aime pas
+65,4,remboursé,19-11-22,22-12-22,taille
+96,1,remboursé,21-10-22,23-01-23,aime pas
+31,3,remboursé,06-12-22,06-01-23,mauvais état
+32,4,en cours, 05-12-22,30-12-22,taille
+40,1,remboursé,09-12-22,13-01-23,taille

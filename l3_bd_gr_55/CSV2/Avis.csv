@@ -1,0 +1,12 @@
+id_client,id_order,commentaire,note,id_produit
+34,7,moche,5,16
+24,61,moche,5,1
+70,99,Mouais,2,16
+85,21,pas mal,5,24
+14,62,pas mal,4,38
+35,33,jolie,1,10
+36,34,grand,2,15
+9,88,trop beau,4,51
+34,36,nul,null,24
+34,34,nul,null,46
+34,87,nul,null,49

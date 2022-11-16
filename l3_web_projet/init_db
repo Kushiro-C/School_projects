@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Create database Vincent_Patrick
+
+mysql < sql/data.sql
+
+# Insert Values to database Vincent_Patrick
+
+mysql Vincent_Patrick < sql/person.dat
+mysql Vincent_Patrick < sql/subscriptions.dat
+mysql Vincent_Patrick < sql/publications.dat

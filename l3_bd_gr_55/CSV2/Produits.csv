@@ -1,0 +1,800 @@
+poids, nom, prix, marque, origine, stock, taille
+1321,Summer,3.05,Taku,France,55,S
+1315,Women's Fashion,5.00,Taku,France,22,S
+1082,Fashion,6.00,Taku,France,70,S
+961,Women,2.55,Taku,France,22,S
+905,Casual,6.00,Taku,France,10,S
+636,Plus Size,2.55,Piece,Espagne,11,S
+580,sleeveless,2.55,Piece,Espagne,13,S
+549,Dress,2.55,Piece,Espagne,24,S
+540,Shorts,6.00,Piece,Espagne,65,S
+507,Tops,4.99,Piece,Espagne,11,S
+328,sexy,4.99,Farwest,USA,12,S
+324,Beach,2.99,Farwest,USA,13,S
+300,Sleeve,9.99,Farwest,USA,32,S
+296,short sleeves,6.00,Farwest,USA,11,S
+296,Print,6.00,Gacci,Italie,9,S
+281,Shirt,4.99,Gacci,Italie,10,S
+265,Tank,4.99,Gacci,Italie,4,S
+254,Necks,6.00,Gacci,Italie,7,S
+241,V-neck,1.99,Gacci,Italie,12,S
+1321,Summer,3.05,Taku,France,55,L
+1315,Women's Fashion,5.00,Taku,France,22,L
+1082,Fashion,6.00,Taku,France,70,L
+961,Women,2.55,Taku,France,22,L
+905,Casual,6.00,Taku,France,10,L
+636,Plus Size,2.55,Piece,Espagne,11,L
+580,sleeveless,2.55,Piece,Espagne,13,L
+549,Dress,2.55,Piece,Espagne,24,L
+540,Shorts,6.00,Piece,Espagne,65,L
+507,Tops,4.99,Piece,Espagne,11,L
+328,sexy,4.99,Farwest,USA,12,L
+324,Beach,2.99,Farwest,USA,13,L
+300,Sleeve,9.99,Farwest,USA,32,L
+296,short sleeves,6.00,Farwest,USA,11,L
+296,Print,6.00,Gacci,Italie,9,L
+281,Shirt,4.99,Gacci,Italie,10,L
+265,Tank,4.99,Gacci,Italie,4,L
+254,Necks,6.00,Gacci,Italie,7,L
+241,V-neck,1.99,Gacci,Italie,12,L
+1321,Summer,3.05,Taku,France,55,M
+1315,Women's Fashion,5.00,Taku,France,22,M
+1082,Fashion,6.00,Taku,France,70,M
+961,Women,2.55,Taku,France,22,M
+905,Casual,6.00,Taku,France,10,M
+636,Plus Size,2.55,Piece,Espagne,11,M
+580,sleeveless,2.55,Piece,Espagne,13,M
+549,Dress,2.55,Piece,Espagne,24,M
+540,Shorts,6.00,Piece,Espagne,65,M
+507,Tops,4.99,Piece,Espagne,11,M
+328,sexy,4.99,Farwest,USA,12,M
+324,Beach,2.99,Farwest,USA,13,M
+300,Sleeve,9.99,Farwest,USA,32,M
+296,short sleeves,6.00,Farwest,USA,11,M
+296,Print,6.00,Gacci,Italie,9,M
+281,Shirt,4.99,Gacci,Italie,10,M
+265,Tank,4.99,Gacci,Italie,4,M
+254,Necks,6.00,Gacci,Italie,7,M
+241,V-neck,1.99,Gacci,Italie,12,M
+235,printed,9,Farwest,USA,34,XL
+235,T Shirts,9,Farwest,USA,34,XL
+219,tank top,9,Farwest,USA,34,XL
+216,Cotton,9,Farwest,USA,34,XL
+212,summer dress,9,Farwest,USA,34,XL
+212,Ladies,9,Farwest,USA,34,XL
+204,Loose,9,Farwest,USA,34,XL
+201,blouse,9,Farwest,USA,34,XL
+197,pants,9,Farwest,USA,34,XL
+189,Vest,9,Farwest,USA,34,XL
+185,beach dress,9,Farwest,USA,34,XL
+174,women dress,9,Farwest,USA,34,XL
+174,Floral,9,Farwest,USA,34,XL
+173,Lace,9,Farwest,USA,34,XL
+170,Mini dress,9,Farwest,USA,34,XL
+164,Mini,9,Farwest,USA,34,XL
+162,slim,9,Farwest,USA,34,XL
+151,Sleeveless dress,9,Farwest,USA,34,XL
+142,Women Fashion,9,Farwest,USA,34,XL
+139,Round neck,9,Farwest,USA,34,XL
+136,casual dress,9,Farwest,USA,34,XL
+130,Waist,9,Farwest,USA,34,XL
+129,party,9,Farwest,USA,34,XL
+123,long dress,9,Farwest,USA,34,XL
+120,Party Dress,9,Farwest,USA,34,XL
+109,Sport,9,Farwest,USA,34,XL
+108,Floral print,9,Farwest,USA,34,XL
+107,Slim Fit,9,Farwest,USA,34,XL
+106,Spaghetti,9,Farwest,USA,34,XL
+104,backless,9,Farwest,USA,34,XL
+99,jumpsuit,9,Farwest,USA,34,XL
+95,Short pants,9,Farwest,USA,34,XL
+91,Bikini,9,Farwest,USA,34,XL
+88,Swimsuit,9,Farwest,USA,34,XL
+86,loose dress,9,Farwest,USA,34,XL
+86,high waist,9,Farwest,USA,34,XL
+86,boho,9,Farwest,USA,34,XL
+85,Swimwear,9,Farwest,USA,34,XL
+84,Swimming,9,Farwest,USA,34,XL
+79,Dresses,9,Farwest,USA,34,XL
+77,Halter,9,Farwest,USA,34,XL
+74,Skirts,9,Farwest,USA,34,XL
+73,Spaghetti Strap,9,Farwest,USA,34,XL
+70,summer dresses,9,Farwest,USA,34,XL
+70,sleeveless tops,9,Farwest,USA,34,XL
+68,trousers,9,Farwest,USA,34,XL
+66,solid color,9,Farwest,USA,34,XL
+61,summer t-shirts,9,Farwest,USA,34,XL
+61,Suits,9,Farwest,USA,34,XL
+60,Elastic,9,Farwest,USA,34,XL
+60,Deep V-Neck,9,Farwest,USA,34,XL
+58,summer tops,9,Farwest,USA,34,XL
+56,women top,9,Farwest,USA,34,XL
+54,Sexy Dress,9,Farwest,USA,34,XL
+54,Ladies Fashion,9,Farwest,USA,34,XL
+54,Casual pants,9,Farwest,USA,34,XL
+53,women Jumpsuit,9,Farwest,USA,34,XL
+53,letter print,9,Farwest,USA,34,XL
+51,maxi dress,9,Farwest,USA,34,XL
+51,crop top,9,Farwest,USA,34,XL
+51,Vintage,9,Farwest,USA,34,XL
+50,Men's Fashion,9,Farwest,USA,34,XL
+49,Yoga,9,Farwest,USA,34,XL
+49,Summer Fashion,9,Farwest,USA,34,XL
+49,Pleated,9,Farwest,USA,34,XL
+49,Lace Up,9,Farwest,USA,34,XL
+47,Fitness,9,Farwest,USA,34,XL
+45,topsamptshirt,9,Farwest,USA,34,XL
+45,Women Vest,9,Farwest,USA,34,XL
+45,Spring,9,Farwest,USA,34,XL
+44,summer shorts,9,Farwest,USA,34,XL
+44,Men,9,Farwest,USA,34,XL
+43,tunic,9,Farwest,USA,34,XL
+43,Tops & T-Shirts,9,Farwest,USA,34,XL
+41,off shoulder,9,Farwest,USA,34,XL
+41,Pure Color,9,Farwest,USA,34,XL
+41,Casual T-Shirt,9,Farwest,USA,34,XL
+40,Tops & Blouses,9,Farwest,USA,34,XL
+39,boho dress,9,Farwest,USA,34,XL
+39,Floral dress,9,Farwest,USA,34,XL
+38,plus size dress,9,Farwest,USA,34,XL
+38,cute,14,Gacci,Italie,20,L
+38,chiffon,14,Gacci,Italie,20,L
+38,Funny,14,Gacci,Italie,20,L
+36,black,14,Gacci,Italie,20,L
+36,Cotton T Shirt,14,Gacci,Italie,20,L
+35,Jeans,14,Gacci,Italie,20,L
+34,polka dot,14,Gacci,Italie,20,L
+34,Overalls,14,Gacci,Italie,20,L
+34,Flowers,14,Gacci,Italie,20,L
+34,Cotton Dress,14,Gacci,Italie,20,L
+33,beach wear,14,Gacci,Italie,20,L
+33,Polkas,14,Gacci,Italie,20,L
+33,Pocket,14,Gacci,Italie,20,L
+33,Lace Dress,14,Gacci,Italie,20,L
+33,Bras,14,Gacci,Italie,20,L
+32,women shorts,14,Gacci,Italie,20,L
+32,short dress,14,Gacci,Italie,20,L
+32,camisole,14,Gacci,Italie,20,L
+32,bathing suit,14,Gacci,Italie,20,L
+32,Leggings,14,Gacci,Italie,20,L
+31,elastic waist,14,Gacci,Italie,20,L
+30,short sleeve dress,14,Gacci,Italie,20,L
+30,Rompers,14,Gacci,Italie,20,L
+29,loose t-shirt,14,Gacci,Italie,20,L
+29,graphic tee,14,Gacci,Italie,20,L
+29,casual dresses,14,Gacci,Italie,20,L
+29,button,14,Gacci,Italie,20,L
+29,bikini set,14,Gacci,Italie,20,L
+29,Women S Clothing,14,Gacci,Italie,20,L
+29,Party Dresses,14,Gacci,Italie,20,L
+29,Outfits,14,Gacci,Italie,20,L
+29,Elegant,14,Gacci,Italie,20,L
+28,Bottom,14,Gacci,Italie,20,L
+27,women dresses,14,Gacci,Italie,20,L
+27,tops for women,14,Gacci,Italie,20,L
+27,Running,14,Gacci,Italie,20,L
+27,Long pants,14,Gacci,Italie,20,L
+27,Jumpsuits & Rompers,14,Gacci,Italie,20,L
+27,Clothes,14,Gacci,Italie,20,L
+26,women t shirt,14,Gacci,Italie,20,L
+26,t,14,Gacci,Italie,20,L
+26,halter dress,14,Gacci,Italie,20,L
+26,camouflage,14,Gacci,Italie,20,L
+26,Long Sleeve,14,Gacci,Italie,20,L
+26,Denim,14,Gacci,Italie,20,L
+26,Clothing,14,Gacci,Italie,20,L
+25,Striped,14,Gacci,Italie,20,L
+25,Sleeveless Shirt,14,Gacci,Italie,20,L
+25,Outdoor,14,Gacci,Italie,20,L
+25,Evening Dress,14,Gacci,Italie,20,L
+24,white,14,Gacci,Italie,20,L
+24,strapless,14,Gacci,Italie,20,L
+24,slim dress,14,Gacci,Italie,20,L
+24,Pullovers,14,Gacci,Italie,20,L
+23,short sleeve shirt,14,Gacci,Italie,20,L
+23,print dress,14,Gacci,Italie,20,L
+23,onepiece,14,Gacci,Italie,20,L
+22,fashion women,14,Gacci,Italie,20,L
+22,Wool,14,Gacci,Italie,20,L
+22,Women Blouse,14,Gacci,Italie,20,L
+22,Tie Dye,14,Gacci,Italie,20,L
+22,Midi Dress,14,Gacci,Italie,20,L
+22,Holiday,14,Gacci,Italie,20,L
+22,Casual Tops,14,Gacci,Italie,20,L
+21,womens dresses,14,Gacci,Italie,20,L
+21,sundress,14,Gacci,Italie,20,L
+21,summerpant,14,Gacci,Italie,20,L
+21,splits,14,Gacci,Italie,20,L
+21,padded,14,Gacci,Italie,20,L
+21,butterfly,14,Gacci,Italie,20,L
+21,Women Clothing,14,Gacci,Italie,20,L
+21,Robes,14,Gacci,Italie,20,L
+21,Dyes,14,Gacci,Italie,20,L
+21,Beach Shorts,14,Gacci,Italie,20,L
+20,fashion dress,14,Gacci,Italie,20,L
+20,Stripes,14,Gacci,Italie,20,L
+20,Denim Shorts,14,Gacci,Italie,20,L
+20,Cross,14,Gacci,Italie,20,L
+19,topsampblouse,14,Gacci,Italie,20,L
+19,neck dress,14,Gacci,Italie,20,L
+19,harem pants,14,Gacci,Italie,20,L
+19,dressesforwomen,14,Gacci,Italie,20,L
+19,casual shirt,14,Gacci,Italie,20,L
+19,Push up bikini,14,Gacci,Italie,20,L
+18,women tank top,14,Gacci,Italie,20,L
+18,strap,14,Gacci,Italie,20,L
+18,sexy lace,14,Gacci,Italie,20,L
+18,sexy bikini,14,Gacci,Italie,20,L
+18,ruffle,14,Gacci,Italie,20,L
+18,Women Rompers,14,Gacci,Italie,20,L
+18,Panties,14,Gacci,Italie,20,L
+18,Bikinis Set,14,Gacci,Italie,20,L
+17,zippers,14,Gacci,Italie,20,L
+17,women shirt,14,Gacci,Italie,20,L
+17,vestido,14,Gacci,Italie,20,L
+17,bohemia,14,Gacci,Italie,20,L
+16,yogashort,14,Gacci,Italie,20,L
+16,shortsforwomen,14,Gacci,Italie,20,L
+16,o-neck,14,Gacci,Italie,20,L
+16,men's shorts,14,Gacci,Italie,20,L
+16,Women Pants,14,Gacci,Italie,20,L
+16,Short Sleeve T-Shirt,14,Gacci,Italie,20,L
+16,Sandals,14,Gacci,Italie,20,L
+16,Printed T Shirts,14,Gacci,Italie,20,L
+16,Plus size top,14,Gacci,Italie,20,L
+15,womens top,14,Gacci,Italie,20,L
+15,summer tank top,14,Gacci,Italie,20,L
+15,summer shirt,14,Gacci,Italie,20,L
+15,retro,14,Gacci,Italie,20,L
+15,Slippers,14,Gacci,Italie,20,L
+15,Maxi Dresses,14,Gacci,Italie,20,L
+14,t-shirt dress,14,Gacci,Italie,20,L
+14,knee,14,Gacci,Italie,20,L
+14,bohemian,14,Gacci,Italie,20,L
+14,beachpant,14,Gacci,Italie,20,L
+14,backless dress,14,Gacci,Italie,20,L
+14,Two piece set,14,Gacci,Italie,20,L
+14,Two Pieces,14,Gacci,Italie,20,L
+14,Tunic dress,14,Gacci,Italie,20,L
+14,Sport Suits,14,Gacci,Italie,20,L
+14,Sexy Top,14,Gacci,Italie,20,L
+14,Green,14,Gacci,Italie,20,L
+14,Cotton Shirt,14,Gacci,Italie,20,L
+13,widelegpant,14,Gacci,Italie,20,L
+13,tunic top,14,Gacci,Italie,20,L
+13,summerjumpsuit,14,Gacci,Italie,20,L
+13,skull,14,Gacci,Italie,20,L
+13,rompers womens jumpsuit,14,Gacci,Italie,20,L
+13,robefemme,14,Gacci,Italie,20,L
+13,lace top,14,Gacci,Italie,20,L
+13,high waisted shorts,14,Gacci,Italie,20,L
+13,casualshort,14,Gacci,Italie,20,L
+13,bodycon,14,Gacci,Italie,20,L
+13,V Neckdress,14,Gacci,Italie,20,L
+13,Bodycon Dress,14,Gacci,Italie,20,L
+13,Athletics,14,Gacci,Italie,20,L
+12,women's dress,14,Gacci,Italie,20,L
+12,women trousers,14,Gacci,Italie,20,L
+12,women beachwear,14,Gacci,Italie,20,L
+12,sleeve v-neck,14,Gacci,Italie,20,L
+12,playsuit,12,Ratz,France,41,XL
+12,jumpsuitsampromper,12,Ratz,France,41,XL
+12,blousesampshirt,12,Ratz,France,41,XL
+12,Swing dress,12,Ratz,France,41,XL
+12,Strapless Dress,12,Ratz,France,41,XL
+12,Shoes,12,Ratz,France,41,XL
+12,Men Shorts,12,Ratz,France,41,XL
+12,Corset,12,Ratz,France,41,XL
+12,Cool T-Shirts,12,Ratz,France,41,XL
+12,Collar,12,Ratz,France,41,XL
+12,Causal,12,Ratz,France,41,XL
+11,yoga top,12,Ratz,France,41,XL
+11,women swimsuit,12,Ratz,France,41,XL
+11,water,12,Ratz,France,41,XL
+11,strappy,12,Ratz,France,41,XL
+11,sleevelessjumpsuit,12,Ratz,France,41,XL
+11,sleevelessblouse,12,Ratz,France,41,XL
+11,skinny pants,12,Ratz,France,41,XL
+11,long skirt,12,Ratz,France,41,XL
+11,high waist shorts,12,Ratz,France,41,XL
+11,feather,12,Ratz,France,41,XL
+11,chiffon dress,12,Ratz,France,41,XL
+11,chiffon blouse,12,Ratz,France,41,XL
+11,bohemian dress,12,Ratz,France,41,XL
+11,beach swimwear,12,Ratz,France,41,XL
+11,Women Skirts,12,Ratz,France,41,XL
+11,Underwear,12,Ratz,France,41,XL
+11,Tops & Tees,12,Ratz,France,41,XL
+11,T-Shirt womens,12,Ratz,France,41,XL
+11,Sports Wear,12,Ratz,France,41,XL
+11,Sling,12,Ratz,France,41,XL
+11,Sleepwear,12,Ratz,France,41,XL
+11,Short Sleeved,12,Ratz,France,41,XL
+11,Patchwork,12,Ratz,France,41,XL
+11,Inflatable,12,Ratz,France,41,XL
+11,Fashion Accessory,12,Ratz,France,41,XL
+11,Cocktail,12,Ratz,France,41,XL
+10,womens tank tops,12,Ratz,France,41,XL
+10,topsamptee,12,Ratz,France,41,XL
+10,tank top women,12,Ratz,France,41,XL
+10,slingdre,12,Ratz,France,41,XL
+10,sleeve dress,12,Ratz,France,41,XL
+10,silk,12,Ratz,France,41,XL
+10,shortsleeveset,12,Ratz,France,41,XL
+10,short skirt,12,Ratz,France,41,XL
+10,sexy jumpsuit,12,Ratz,France,41,XL
+10,runningshort,12,Ratz,France,41,XL
+10,off shoulder top,12,Ratz,France,41,XL
+10,men's suits,12,Ratz,France,41,XL
+10,loosepant,12,Ratz,France,41,XL
+10,lip,12,Ratz,France,41,XL
+10,clubwear,12,Ratz,France,41,XL
+10,belt,12,Ratz,France,41,XL
+10,athleticshort,12,Ratz,France,41,XL
+10,Yellow,12,Ratz,France,41,XL
+10,Vintage dress,12,Ratz,France,41,XL
+10,Tankinis,12,Ratz,France,41,XL
+10,Printing,12,Ratz,France,41,XL
+10,Hollow-out,12,Ratz,France,41,XL
+10,Design,12,Ratz,France,41,XL
+10,Classics,12,Ratz,France,41,XL
+10,Blues,12,Ratz,France,41,XL
+10,Army,12,Ratz,France,41,XL
+9,women long pants,12,Ratz,France,41,XL
+9,women bathing suit,12,Ratz,France,41,XL
+9,wasitcincher,12,Ratz,France,41,XL
+9,waistgirdle,12,Ratz,France,41,XL
+9,waist trainer,12,Ratz,France,41,XL
+9,suspenders,12,Ratz,France,41,XL
+9,sportshort,12,Ratz,France,41,XL
+9,slimmingcorset,12,Ratz,France,41,XL
+9,slimming,12,Ratz,France,41,XL
+9,shirt dress,12,Ratz,France,41,XL
+9,punk,12,Ratz,France,41,XL
+9,pleated dress,12,Ratz,France,41,XL
+9,loosejumpsuit,12,Ratz,France,41,XL
+9,linenjumpsuit,12,Ratz,France,41,XL
+9,leaf,12,Ratz,France,41,XL
+9,jogging,12,Ratz,France,41,XL
+9,hippie,12,Ratz,France,41,XL
+9,floralprinted,12,Ratz,France,41,XL
+9,Women Set,12,Ratz,France,41,XL
+9,Short Sleeve Blouses,12,Ratz,France,41,XL
+9,One Piece Swimsuits,12,Ratz,France,41,XL
+9,Men's pants,12,Ratz,France,41,XL
+9,Love,12,Ratz,France,41,XL
+9,Lines,12,Ratz,France,41,XL
+9,Home & Living,12,Ratz,France,41,XL
+9,Halter Bikini,12,Ratz,France,41,XL
+9,Funny T Shirt,12,Ratz,France,41,XL
+9,Elegant Dress,12,Ratz,France,41,XL
+9,Chiffon Shirt,12,Ratz,France,41,XL
+9,Cartoons,12,Ratz,France,41,XL
+9,2pieceset,12,Ratz,France,41,XL
+8,yoga pants,12,Ratz,France,41,XL
+8,womens vest,12,Ratz,France,41,XL
+8,women swimwear,12,Ratz,France,41,XL
+8,women crop top,12,Ratz,France,41,XL
+8,twopieceoutfit,12,Ratz,France,41,XL
+8,teesamptshirt,12,Ratz,France,41,XL
+8,tankvest,12,Ratz,France,41,XL
+8,summervest,12,Ratz,France,41,XL
+8,summersuitset,12,Ratz,France,41,XL
+8,shaperwear,12,Ratz,France,41,XL
+8,printeddre,12,Ratz,France,41,XL
+8,off shoulder dress,12,Ratz,France,41,XL
+8,minishirtdres,12,Ratz,France,41,XL
+8,mididre,12,Ratz,France,41,XL
+8,looseblouse,12,Ratz,France,41,XL
+8,kids,12,Ratz,France,41,XL
+8,gymshort,12,Ratz,France,41,XL
+8,floral lace,12,Ratz,France,41,XL
+8,denimjeansdres,12,Ratz,France,41,XL
+8,bandage bikini,12,Ratz,France,41,XL
+8,asymmetric,12,Ratz,France,41,XL
+8,Women's Jumpsuits,12,Ratz,France,41,XL
+8,V-neck Dresses,12,Ratz,France,41,XL
+8,Toy,12,Ratz,France,41,XL
+8,Tee,12,Ratz,France,41,XL
+8,Tassels,12,Ratz,France,41,XL
+8,Sunflowers,12,Ratz,France,41,XL
+8,Round Collar,12,Ratz,France,41,XL
+8,Loose tank tops,12,Ratz,France,41,XL
+8,Hot pants,12,Ratz,France,41,XL
+8,Breathable,12,Ratz,France,41,XL
+7,womensfahsion,12,Ratz,France,41,XL
+7,womens clothes,12,Ratz,France,41,XL
+7,womemstop,12,Ratz,France,41,XL
+7,white dress,12,Ratz,France,41,XL
+7,vesttop,12,Ratz,France,41,XL
+7,tiedyeprint,12,Ratz,France,41,XL
+7,swimsuits for women,12,Ratz,France,41,XL
+7,sweat suit,12,Ratz,France,41,XL
+7,strappant,12,Ratz,France,41,XL
+7,sportsset,12,Ratz,France,41,XL
+7,splitbikiniset,12,Ratz,France,41,XL
+7,spaghettistrapdresse,12,Ratz,France,41,XL
+7,skinnyshort,12,Ratz,France,41,XL
+7,sexy bathing suit,12,Ratz,France,41,XL
+7,plussizejumpsuit,12,Ratz,France,41,XL
+7,minidressforwomen,12,Ratz,France,41,XL
+7,mini skirt,12,Ratz,France,41,XL
+7,loose top,12,Ratz,France,41,XL
+7,loose shirt,12,Ratz,France,41,XL
+7,linen dress,12,Ratz,France,41,XL
+7,kimono,12,Ratz,France,41,XL
+7,jean shorts,12,Ratz,France,41,XL
+7,high waist bikini,12,Ratz,France,41,XL
+7,floralprinteddre,12,Ratz,France,41,XL
+7,dress slim,12,Ratz,France,41,XL
+7,drawstring,12,Ratz,France,41,XL
+7,crochet,12,Ratz,France,41,XL
+7,bubble,12,Ratz,France,41,XL
+7,Womens shorts,12,Ratz,France,41,XL
+7,Womens Blouse,12,Ratz,France,41,XL
+7,Tee Shirt,12,Ratz,France,41,XL
+7,Socks,12,Ratz,France,41,XL
+7,Mens T Shirt,12,Ratz,France,41,XL
+7,Jewelry,12,Ratz,France,41,XL
+7,Gifts,12,Ratz,France,41,XL
+7,Fun,12,Ratz,France,41,XL
+7,Cover,12,Ratz,France,41,XL
+7,Cotton Vest,12,Ratz,France,41,XL
+7,Colorful,12,Ratz,France,41,XL
+7,Coat,12,Ratz,France,41,XL
+7,Blouses & Shirts,12,Ratz,France,41,XL
+7,Bikini swimwear,12,Ratz,France,41,XL
+7,Balloon,12,Ratz,France,41,XL
+7,Bags,12,Ratz,France,41,XL
+7,#top #crop,12,Ratz,France,41,XL
+6,women's pants,12,Ratz,France,41,XL
+6,women clothes,12,Ratz,France,41,XL
+6,wavepoint,12,Ratz,France,41,XL
+6,two piece swimsuit,12,Ratz,France,41,XL
+6,summerdressesforwomen,12,Ratz,France,41,XL
+6,solid,12,Ratz,France,41,XL
+6,silksleepwear,12,Ratz,France,41,XL
+6,sexyblouse,12,Ratz,France,41,XL
+6,sexy shirts,12,Ratz,France,41,XL
+6,sailboatshort,12,Ratz,France,41,XL
+6,push up swimwear,12,Ratz,France,41,XL
+6,printeddres,12,Ratz,France,41,XL
+6,printed shirts,12,Ratz,France,41,XL
+6,print t-shirt,12,Ratz,France,41,XL
+6,open toe,12,Ratz,France,41,XL
+6,mensjoggersuit,12,Ratz,France,41,XL
+6,ladies dress,12,Ratz,France,41,XL
+6,lace trim,12,Ratz,France,41,XL
+6,high waisted,12,Ratz,France,41,XL
+6,gymwear,12,Ratz,France,41,XL
+6,floralprinteddres,12,Ratz,France,41,XL
+6,fashion vest,12,Ratz,France,41,XL
+6,fashion pants,12,Ratz,France,41,XL
+6,european,12,Ratz,France,41,XL
+6,drawstringshort,12,Ratz,France,41,XL
+6,capripant,12,Ratz,France,41,XL
+6,bubbleball,12,Ratz,France,41,XL
+6,bras for women,12,Ratz,France,41,XL
+6,bibpant,12,Ratz,France,41,XL
+6,beachwear for women,12,Ratz,France,41,XL
+6,Womens T Shirts,12,Ratz,France,41,XL
+6,Womens Shoes,12,Ratz,France,41,XL
+6,Vacation,12,Ratz,France,41,XL
+6,Tanktops for women,12,Ratz,France,41,XL
+6,Tankini Set,12,Ratz,France,41,XL
+6,Swing,12,Ratz,France,41,XL
+6,Sports & Outdoors,12,Ratz,France,41,XL
+6,Shift Dress,12,Ratz,France,41,XL
+6,Rose,12,Ratz,France,41,XL
+6,Pajamas,12,Ratz,France,41,XL
+6,Harajuku,12,Ratz,France,41,XL
+6,Graphic Shirt,12,Ratz,France,41,XL
+6,Fashion Accessories,12,Ratz,France,41,XL
+6,Deep V-neck Dress,12,Ratz,France,41,XL
+6,Cats,12,Ratz,France,41,XL
+6,Cami Tank Tops,12,Ratz,France,41,XL
+6,Bow,12,Ratz,France,41,XL
+6,Bottoming shirt,12,Ratz,France,41,XL
+6,Beauty,12,Ratz,France,41,XL
+6,Beach Shorts Women,12,Ratz,France,41,XL
+5,yoga leggings,12,Ratz,France,41,XL
+5,wrappedchest,12,Ratz,France,41,XL
+5,womens shirt,12,Ratz,France,41,XL
+5,women's pajamas,12,Ratz,France,41,XL
+5,women summer tops,12,Ratz,France,41,XL
+5,women fashion shorts,12,Ratz,France,41,XL
+5,vneckshirt,12,Ratz,France,41,XL
+5,vest dress,12,Ratz,France,41,XL
+5,twopiecesset,12,Ratz,France,41,XL
+5,tunicsforwomen,12,Ratz,France,41,XL
+5,trousersforwomen,12,Ratz,France,41,XL
+5,tracksuitsforwomen,12,Ratz,France,41,XL
+5,teeshirthomme,12,Ratz,France,41,XL
+5,tanktopforwomen,12,Ratz,France,41,XL
+5,sundressesforwomen,12,Ratz,France,41,XL
+5,summerwear,12,Ratz,France,41,XL
+5,spaghettistrapdre,12,Ratz,France,41,XL
+5,slingvest,12,Ratz,France,41,XL
+5,sleevelesstshirt,12,Ratz,France,41,XL
+5,sleevele,12,Ratz,France,41,XL
+5,silksleepwearnightgown,12,Ratz,France,41,XL
+5,silksleepwearforwomen,12,Ratz,France,41,XL
+5,shortjumpsuit,12,Ratz,France,41,XL
+5,sexydressesforwoman,12,Ratz,France,41,XL
+5,sexy tank top,12,Ratz,France,41,XL
+5,sexy pajamas for womens,12,Ratz,France,41,XL
+5,sexy dresses,12,Ratz,France,41,XL
+5,scarf,12,Ratz,France,41,XL
+5,runningset,12,Ratz,France,41,XL
+5,runningpant,12,Ratz,France,41,XL
+5,ruffled,12,Ratz,France,41,XL
+5,printedvest,12,Ratz,France,41,XL
+5,pool,12,Ratz,France,41,XL
+5,plaid,12,Ratz,France,41,XL
+5,partydressesforwomen,12,Ratz,France,41,XL
+5,pajamassuit,12,Ratz,France,41,XL
+5,pajamassleepwear,12,Ratz,France,41,XL
+5,pajamasforwomen,12,Ratz,France,41,XL
+5,pajamaset,12,Ratz,France,41,XL
+5,monokini,12,Ratz,France,41,XL
+5,momshirt,12,Ratz,France,41,XL
+5,lace shirts,12,Ratz,France,41,XL
+5,kleid,12,Ratz,France,41,XL
+5,irregulardre,12,Ratz,France,41,XL
+5,gowns,12,Ratz,France,41,XL
+5,gothic,12,Ratz,France,41,XL
+5,fitnessvest,12,Ratz,France,41,XL
+5,featherprint,12,Ratz,France,41,XL
+5,fashion top,12,Ratz,France,41,XL
+5,dressforwomen,12,Ratz,France,41,XL
+5,deep v neck top,12,Ratz,France,41,XL
+5,croppedtrouser,12,Ratz,France,41,XL
+5,cottontop,12,Ratz,France,41,XL
+5,casualdressesforwomen,12,Ratz,France,41,XL
+5,casualblouse,12,Ratz,France,41,XL
+5,cardigan,12,Ratz,France,41,XL
+5,butterflyprint,12,Ratz,France,41,XL
+5,blouse women,12,Ratz,France,41,XL
+5,bigswing,12,Ratz,France,41,XL
+5,beachsuit,12,Ratz,France,41,XL
+5,beach coverup,12,Ratz,France,41,XL
+5,asymmetrical dress,12,Ratz,France,41,XL
+5,Womens swimwear,12,Ratz,France,41,XL
+5,Women jeans,12,Ratz,France,41,XL
+5,Tube top,12,Ratz,France,41,XL
+5,Sprays,12,Ratz,France,41,XL
+5,Sports Pants,12,Ratz,France,41,XL
+5,Skeleton,12,Ratz,France,41,XL
+5,Red,12,Ratz,France,41,XL
+5,Pleated Skirt,12,Ratz,France,41,XL
+5,Lingerie,12,Ratz,France,41,XL
+5,Leopard,12,Ratz,France,41,XL
+5,Ladies Top,12,Ratz,France,41,XL
+5,Home & Kitchen,12,Ratz,France,41,XL
+5,Home,12,Ratz,France,41,XL
+5,Hip Hop,12,Ratz,France,41,XL
+5,High Waist Pants,12,Ratz,France,41,XL
+5,Head,12,Ratz,France,41,XL
+5,Flip Flops,12,Ratz,France,41,XL
+5,Denim pants,12,Ratz,France,41,XL
+5,Cover Ups,12,Ratz,France,41,XL
+5,Cocktail dresses,12,Ratz,France,41,XL
+5,Clothes for women,12,Ratz,France,41,XL
+5,Children,12,Ratz,France,41,XL
+5,Cami,12,Ratz,France,41,XL
+5,Body Suit,12,Ratz,France,41,XL
+4,womens jeans,12,Ratz,France,41,XL
+4,women tank,12,Ratz,France,41,XL
+4,woman fashion,12,Ratz,France,41,XL
+4,wedge,12,Ratz,France,41,XL
+4,wedding dress,12,Ratz,France,41,XL
+4,wavepointdre,12,Ratz,France,41,XL
+4,tee shirt women,12,Ratz,France,41,XL
+4,tank tops women,12,Ratz,France,41,XL
+4,swim suit cover up,12,Ratz,France,41,XL
+4,surfshort,12,Ratz,France,41,XL
+4,summer skirt,12,Ratz,France,41,XL
+4,summer shoes,12,Ratz,France,41,XL
+4,summer bikini,12,Ratz,France,41,XL
+4,striped dress,12,Ratz,France,41,XL
+4,street style,12,Ratz,France,41,XL
+4,splitdre,12,Ratz,France,41,XL
+4,spaghettishoulderstrapdre,12,Ratz,France,41,XL
+4,slingtop,12,Ratz,France,41,XL
+4,slingdres,12,Ratz,France,41,XL
+4,slimpant,12,Ratz,France,41,XL
+4,sleevelessdresse,12,Ratz,France,41,XL
+4,skullprint,12,Ratz,France,41,XL
+4,shortssuit,12,Ratz,France,41,XL
+4,short leggings,12,Ratz,France,41,XL
+4,sandals for women,12,Ratz,France,41,XL
+4,rompersforwomen,12,Ratz,France,41,XL
+4,push up bra,12,Ratz,France,41,XL
+4,pure,12,Ratz,France,41,XL
+4,punk style,12,Ratz,France,41,XL
+4,prom dress,12,Ratz,France,41,XL
+4,printjumpsuit,12,Ratz,France,41,XL
+4,print shirt,12,Ratz,France,41,XL
+4,princess dress,12,Ratz,France,41,XL
+4,polka dot dress,12,Ratz,France,41,XL
+4,pencil pants,12,Ratz,France,41,XL
+4,offshoulderjumpsuit,12,Ratz,France,41,XL
+4,mensjoggingsuit,12,Ratz,France,41,XL
+4,low,12,Ratz,France,41,XL
+4,looseshort,12,Ratz,France,41,XL
+4,long sleeve blouse,12,Ratz,France,41,XL
+4,long dresses,12,Ratz,France,41,XL
+4,letterprinted,12,Ratz,France,41,XL
+4,largecottonandlinenwomenstrouser,12,Ratz,France,41,XL
+4,lace lingerie,12,Ratz,France,41,XL
+4,korean style,12,Ratz,France,41,XL
+4,knit,12,Ratz,France,41,XL
+4,harem,12,Ratz,France,41,XL
+4,halterneck,12,Ratz,France,41,XL
+4,hair,12,Ratz,France,41,XL
+4,gaes,7,Zaza,UK,12,XXL
+4,funnytee,7,Zaza,UK,12,XXL
+4,funnyshirt,7,Zaza,UK,12,XXL
+4,flaresleeve,7,Zaza,UK,12,XXL
+4,fitness leggings,7,Zaza,UK,12,XXL
+4,fashion dresses,7,Zaza,UK,12,XXL
+4,elasticwaistshort,7,Zaza,UK,12,XXL
+4,cottontee,7,Zaza,UK,12,XXL
+4,cottonlinendre,7,Zaza,UK,12,XXL
+4,comfy,7,Zaza,UK,12,XXL
+4,casualjumpsuit,7,Zaza,UK,12,XXL
+4,bathing suit cover ups,7,Zaza,UK,12,XXL
+4,bandage top,7,Zaza,UK,12,XXL
+4,backless top,7,Zaza,UK,12,XXL
+4,Workout,7,Zaza,UK,12,XXL
+4,Womens Swimsuit,7,Zaza,UK,12,XXL
+4,Women's Casual Tops,7,Zaza,UK,12,XXL
+4,Waterproof,7,Zaza,UK,12,XXL
+4,Vintage Dresses,7,Zaza,UK,12,XXL
+4,Two-Piece Suits,7,Zaza,UK,12,XXL
+4,Triangles,7,Zaza,UK,12,XXL
+4,Swimming suit,7,Zaza,UK,12,XXL
+4,Sweatshirts,7,Zaza,UK,12,XXL
+4,Simple,7,Zaza,UK,12,XXL
+4,Sexy Swimwear,7,Zaza,UK,12,XXL
+4,Puma,7,Zaza,UK,12,XXL
+3,Sport Tops,7,Zaza,UK,12,XXL
+3,Splicing,7,Zaza,UK,12,XXL
+3,Slim T-shirt,7,Zaza,UK,12,XXL
+3,Slim  Fitting,7,Zaza,UK,12,XXL
+3,Sexy Tshirt,7,Zaza,UK,12,XXL
+3,Set,7,Zaza,UK,12,XXL
+3,Sandals & Flip Flops,7,Zaza,UK,12,XXL
+3,Print Dresses,7,Zaza,UK,12,XXL
+3,Polos,7,Zaza,UK,12,XXL
+3,Plus Size Fashions,7,Zaza,UK,12,XXL
+3,Off shoulder shirt,7,Zaza,UK,12,XXL
+3,Nylon,7,Zaza,UK,12,XXL
+3,New arrival,7,Zaza,UK,12,XXL
+3,Moon,7,Zaza,UK,12,XXL
+3,Men T-shirt,7,Zaza,UK,12,XXL
+3,Korean,7,Zaza,UK,12,XXL
+3,Jacket,7,Zaza,UK,12,XXL
+3,High Heel,7,Zaza,UK,12,XXL
+3,Heart,7,Zaza,UK,12,XXL
+3,Hats,7,Zaza,UK,12,XXL
+3,Hair Band,7,Zaza,UK,12,XXL
+3,Hair Accessories,7,Zaza,UK,12,XXL
+3,Grey,7,Zaza,UK,12,XXL
+3,Graffiti,7,Zaza,UK,12,XXL
+3,Girls Dresses,7,Zaza,UK,12,XXL
+3,Get,7,Zaza,UK,12,XXL
+3,Game,7,Zaza,UK,12,XXL
+3,Flats,7,Zaza,UK,12,XXL
+3,Fashion tank top,7,Zaza,UK,12,XXL
+3,Fashion Men,7,Zaza,UK,12,XXL
+3,Dinosaur,7,Zaza,UK,12,XXL
+3,Crewneck,7,Zaza,UK,12,XXL
+3,Club Dress,7,Zaza,UK,12,XXL
+3,Children's Toys,7,Zaza,UK,12,XXL
+3,Causal Dress,7,Zaza,UK,12,XXL
+3,Body Shapers,7,Zaza,UK,12,XXL
+3,BikiniWomen,7,Zaza,UK,12,XXL
+3,Bat,7,Zaza,UK,12,XXL
+3,Bandages,7,Zaza,UK,12,XXL
+3,Accessories,7,Zaza,UK,12,XXL
+3,Above Knee dresses,7,Zaza,UK,12,XXL
+3,A line dress,7,Zaza,UK,12,XXL
+3,#fashion #tshirt,7,Zaza,UK,12,XXL
+2,yogavest,7,Zaza,UK,12,XXL
+2,yogasuit,7,Zaza,UK,12,XXL
+2,wrap dress,7,Zaza,UK,12,XXL
+2,womenswimwearbikini,7,Zaza,UK,12,XXL
+2,womensleevelessdres,7,Zaza,UK,12,XXL
+2,womens shorts suit,7,Zaza,UK,12,XXL
+2,womens bralette,7,Zaza,UK,12,XXL
+2,womens  tank,7,Zaza,UK,12,XXL
+2,womenmonokini,7,Zaza,UK,12,XXL
+2,womendressshirt,7,Zaza,UK,12,XXL
+2,womencasualshort,7,Zaza,UK,12,XXL
+2,women's wear,7,Zaza,UK,12,XXL
+2,women's sleeveless tank,7,Zaza,UK,12,XXL
+2,women's fashion T-shirt,7,Zaza,UK,12,XXL
+2,women sport suit,7,Zaza,UK,12,XXL
+2,women shirt Blouse,7,Zaza,UK,12,XXL
+2,women long dress,7,Zaza,UK,12,XXL
+2,wedgessandal,7,Zaza,UK,12,XXL
+2,vocation,7,Zaza,UK,12,XXL
+2,vneckcamisole,7,Zaza,UK,12,XXL
+2,vestdresse,7,Zaza,UK,12,XXL
+2,velvet,7,Zaza,UK,12,XXL
+2,usb,7,Zaza,UK,12,XXL
+2,unisex,7,Zaza,UK,12,XXL
+2,undersafetypant,7,Zaza,UK,12,XXL
+2,two piece dress,7,Zaza,UK,12,XXL
+2,tunicdresse,7,Zaza,UK,12,XXL
+2,tubetopdre,7,Zaza,UK,12,XXL
+2,tshirtshort,7,Zaza,UK,12,XXL
+2,triangle bikini swimwear,7,Zaza,UK,12,XXL
+2,track suit,7,Zaza,UK,12,XXL
+2,topsforwoman,7,Zaza,UK,12,XXL
+2,toppant,7,Zaza,UK,12,XXL
+2,topandblouse,7,Zaza,UK,12,XXL
+2,tiktoktshirt,7,Zaza,UK,12,XXL
+2,thinsock,7,Zaza,UK,12,XXL
+2,the new,7,Zaza,UK,12,XXL
+2,tes,7,Zaza,UK,12,XXL
+2,tennisdres,7,Zaza,UK,12,XXL
+2,tasseldre,7,Zaza,UK,12,XXL
+2,tankini bathing suits,23,Wonder,Allemagne,11,L
+2,tacksuit,23,Wonder,Allemagne,11,L
+2,swimmingpoolspraypad,23,Wonder,Allemagne,11,L
+2,suspenderdres,23,Wonder,Allemagne,11,L
+2,suspended,23,Wonder,Allemagne,11,L
+2,suntop,23,Wonder,Allemagne,11,L
+2,sun hat,23,Wonder,Allemagne,11,L
+2,summerwomenbikini,23,Wonder,Allemagne,11,L
+2,summertee,23,Wonder,Allemagne,11,L
+2,summersleeveelessdres,23,Wonder,Allemagne,11,L
+2,summershortpant,23,Wonder,Allemagne,11,L
+2,summercocktaildres,23,Wonder,Allemagne,11,L
+2,summerampspring,23,Wonder,Allemagne,11,L
+2,suits for women,23,Wonder,Allemagne,11,L
+2,striped bikini,23,Wonder,Allemagne,11,L
+2,stretchshort,23,Wonder,Allemagne,11,L
+2,stretch,23,Wonder,Allemagne,11,L
+2,streetwear,23,Wonder,Allemagne,11,L
+2,strappytop,23,Wonder,Allemagne,11,L
+2,strangerthing,23,Wonder,Allemagne,11,L
+2,strand,23,Wonder,Allemagne,11,L
+2,springandsummer,23,Wonder,Allemagne,11,L
+2,sportvest,23,Wonder,Allemagne,11,L
+2,sportampoutdoor,23,Wonder,Allemagne,11,L
+2,sport suit women,23,Wonder,Allemagne,11,L
+2,slingdresse,23,Wonder,Allemagne,11,L
+2,slimvest,23,Wonder,Allemagne,11,L
+2,slimfittop,23,Wonder,Allemagne,11,L
+2,slimfitdre,23,Wonder,Allemagne,11,L
+2,slim fit shirt,23,Wonder,Allemagne,11,L
+2,sleevelessvest,23,Wonder,Allemagne,11,L
+2,sleevelessskirt,23,Wonder,Allemagne,11,L
+2,sleeve chiffon,23,Wonder,Allemagne,11,L
+2,silver,23,Wonder,Allemagne,11,L
+2,shouldertop,23,Wonder,Allemagne,11,L
+2,shoulder dress,23,Wonder,Allemagne,11,L
+2,shortsleevesdres,23,Wonder,Allemagne,11,L
+2,shortsleevesdre,23,Wonder,Allemagne,11,L
+2,shortshirt,23,Wonder,Allemagne,11,L
+2,shortsformen,23,Wonder,Allemagne,11,L
+2,shortromper,23,Wonder,Allemagne,11,L
+2,shortpantsforwomen,23,Wonder,Allemagne,11,L
+2,short-sleeved shirt,23,Wonder,Allemagne,11,L
+2,short-s jeans,23,Wonder,Allemagne,11,L
+2,short skirt skorts,23,Wonder,Allemagne,11,L
+2,shirts for men,23,Wonder,Allemagne,11,L
+2,sexyvest,23,Wonder,Allemagne,11,L
+2,sexy underwear,23,Wonder,Allemagne,11,L
+2,sexy skirt,23,Wonder,Allemagne,11,L
+2,sexy shirts for women,23,Wonder,Allemagne,11,L
+2,sexy one piece bathing suit,23,Wonder,Allemagne,11,L
+2,sexy monokini,23,Wonder,Allemagne,11,L
+2,sexy lingerie,23,Wonder,Allemagne,11,L
+2,sexy Women's Fashion,23,Wonder,Allemagne,11,L
+2,sandybeach,23,Wonder,Allemagne,11,L
+2,sandalswomen,23,Wonder,Allemagne,11,L
+2,sandalendamen,23,Wonder,Allemagne,11,L

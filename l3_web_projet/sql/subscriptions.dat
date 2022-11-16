@@ -1,0 +1,5 @@
+INSERT INTO subscriptions(nickname, followed_nickname) VALUES 
+('@Chris','@Marin'),
+('@Chris','@Damien'),
+('@Damien','@Marin'),
+('@Marin','@Chris');

@@ -1,0 +1,36 @@
+Var x;
+Var y;
+Debut
+x=90;
+y=0-90;
+Avance 200;
+Tourne y;
+Avance 300;
+Tourne x;
+BasPinceau;
+Avance 100;
+Tourne y;
+Avance 20;
+Tourne y;
+Avance 40;
+Tourne x;
+Avance 30;
+Tourne x;
+Avance 40;
+Tourne y;
+Avance 20;
+Tourne y;
+Avance 100;
+Tourne y;
+Avance 20;
+Tourne y;
+Avance 40;
+Tourne x;
+Avance 30;
+Tourne x;
+Avance 40;
+Tourne y;
+Avance 20;
+Fin
+
+

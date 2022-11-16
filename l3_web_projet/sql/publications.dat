@@ -1,0 +1,15 @@
+INSERT INTO publications(nickname, message) VALUES 
+('@Chris','bloublabla @everyone'),
+('@Chris','Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dignissim euismod tincidunt. Donec nisl justo, scelerisque ut justo eu, lacinia venenatis est. @everyone'),
+('@Chris','arretes @Marin bibooo'),
+('@Chris','Salutation @everyone'),
+('@Chris','Le monde devient nptk #nptk'),
+('@Chris','Good question - I am still trying to figure that out! @Damien'),
+('@Charlenne','I do NOT work in an office #nptk'),
+('@Charlenne','I am a traveler #nptk @everyone'),
+('@Marin','Full time student and rockin it! @everyone'),
+('@Marin','Inner and outer peace @Chris'),
+('@Damien','Finding true love @Chris @Marin'),
+('@Damien','Understanding other people @everyone'),
+('@Antoine','My life is a crazy explosion of shapes and colors - Creativity #nptk'),
+('@Derick','I am a survivor - Strength @everyone');

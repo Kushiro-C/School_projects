@@ -1,0 +1,139 @@
+﻿Rapport projet: 
+L-système
+
+
+Sommaire :
+
+
+1. Auteurs
+2. Fonctionnalités
+3. Compilation et exécution
+4. Découpage modulaire
+5. Organisation du travail
+6. Remarque(s)
+
+
+
+
+
+
+
+
+Auteurs :
+
+
+Chang Patrick, 71802046, @chang
+Du Vincent, 71801856, @du
+
+
+
+
+
+
+
+
+Fonctionnalités :
+
+
+  Notre projet répond au sujet minimal, il permet d’afficher un L-systèmes 
+  à partir d’un fichier .sys.
+  On peut à partir de la figure initiale la faire évoluer, et afficher ses 
+  substitutions en appuyant sur “n” et revenir en arrière avec “b”. 
+  La figure s’adapte à la taille initiale de l’écran à chaque évolution.
+  Nous avons aussi pu implémenter les couleurs au projet.
+
+  Concernant les fonctionnalités que nous n’avons pas pu ajouter.
+  L’importation de la fenêtre en pdf car nous n’avons pas 
+  réussi à importer le module.
+
+
+
+
+
+
+Compilation et exécution :
+
+
+  Le projet demande l’installation de Graphics et de la librairie 
+  de base de ocaml.
+  Nous avons constaté que Graphics pouvait ne pas se lancer avec 
+  des versions trop récentes de Ocaml.
+  Nous avons donc utiliser la version 4.05.0
+
+
+  Pour lancer le projet : 
+    On se situe dans le répertoire /projet
+    Il faut d’abord le compiler avec make, 
+    puis exécuter le fichier run avec en argument --lsys 
+    et le fichier .sys que l’on souhaite.
+    Par exemple : ./run --lsys examples/htree.sys
+
+  Dans le programme :
+    Appuyez sur la touche “q” pour quitter la fenêtre.
+    Dans le mini menu, on peut appuyer sur "c", pour changer 
+    la couleur des graphes, et quand on a choisis sa couleur, 
+    on appuie sur "s" pour Start, qui dessine le graphe.
+    Appuyez sur "n" pour Next, et "b" pour Back, qui vont 
+    respectivement dessiner le graphe suivant ou précédent.
+    Veillez à attendre que l'animation se termine avant d'appuyer 
+    sur "n" ou "b" (Pour plus d'informations voir section Remarque(s)).
+
+
+
+
+
+
+Découpage modulaire :
+
+
+  Nous avons décidé de garder les modules proposés par le professeur.
+
+  turtle.ml s’occupe principalement de la tortue.
+  Il permet de faire les calculs et déplacements de la tortue 
+  à partir d’une liste de commande.
+  Il calcule la taille de la figure et la redimensionne.
+
+  systems.ml permet de lire le fichier .sys donné en argument.
+  Il le traduit en une liste de commande qui sera ensuite donnée 
+  en argument à des fonctions de turtle.ml. Il calcule chaque substitution.
+
+
+  main.ml appelle les fonctions de turtle.ml et systems.ml.
+  Il permet en quelque sorte de réunir ces 2 parties.
+
+
+
+
+
+
+
+Organisation du travail :
+
+
+  Nous avons réparti le projet de la manière suivante :
+  Chang Patrick s’est d’abord occupé de la partie systems 
+  et Du Vincent de la partie de turtle.
+
+  Avant le confinement, et pendant le confinement, on continuait 
+  à suivre les cours, et à travailler sur d'autres projets/devoirs.
+
+  On a effectué nos parties distinctes après le confinement.
+
+  Et après les examens, nous avons réuni les 2 parties dans le main.
+
+
+
+
+
+
+
+
+Remarque(s) :
+
+  Lorsque un graphe est dessiné sur l’interface, 
+  effectuer une action (appuyer sur une touche ou 
+  modifier à la main la taille de la fenêtre) avant que 
+  le dessin ne se termine, interrompt l’animation en cours.
+  Il faut alors appuyer sur n pour recommencer le dessin.
+
+  Nous espérons que vous apprécierez notre travail.

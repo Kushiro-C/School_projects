@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Vert pomme</string>
+    <string name="app_icon_title">Plante</string>
+    <string-array name="spinner_date">
+        <item>Brown</item>
+        <item>Kowalski</item>
+        <item>Dupont</item>
+        <item>Nowak</item>
+        <item>Smith</item>
+        <item>Randal</item>
+        <item>Martin</item>
+        <item>Petit</item>
+        <item>Bernard</item>
+        <item>Dubois</item>
+        <item>Durand</item>
+    </string-array>
+
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="succeeded">Réussi</string>
+    <string name="failed">Raté</string>
+    <string name="search">Rechercher</string>
+    <string name="confirmDelete">Supprimer cette plante ?</string>
+    <string name="confirmUpdate">Modifier cette plante ?</string>
+    <string name="plantDeleted">Plante supprimée avec succès !</string>
+    <string name="plantUpdated">Plante modifiée avec succès !</string>
+    <string name="plantsWatered">Plantes arrosée avec succès !</string>
+
+
+    <string name="add">ajout</string>
+    <string name="display">afficher</string>
+    <string name="plantsToWater">Plantes à arroser</string>
+
+    <string name="add_id">ID: </string>
+    <string name="add_name">Nom: </string>
+    <string name="add_latin">Latin: </string>
+    <string name="add_last">Dernier arrosage: </string>
+    <string name="add_next">Prochain arrosage prévu: </string>
+    <string name="add_freq">Fréquence normale (en jours): </string>
+    <string name="add_freq_season">Fréquence saisonnière (en jours): </string>
+    <string name="add_freq_nutrient">Fréquence avec nutriments (en jours): </string>
+    <string name="add_from">Du: </string>
+    <string name="add_to">Au: </string>
+    <string name="add_addBtn">Ajouter</string>
+    <string name="add_need_name">il faut soit un nom soit un nom latin !</string>
+    <string name="add_need_freq">il faut une fréquence par défaut !</string>
+    <string name="add_need_last">Date dernier arrosage manquant!</string>
+    <string name="add_need_season">Indiquez les dates pour l\'arrosage saisonnier</string>
+    <string name="add_need_nutrient">Indiquez les dates pour l\'arrosage avec nutriments</string>
+    <string name="add_image">Image: </string>
+    <string name="add_err_date">Les dates ne correspondent pas </string>
+
+    <string name="update_Btn">Modifier</string>
+    <string name="delete_Btn">Supprimer</string>
+
+    <string name="pick_choice">Choisir Date</string>
+    <string name="pick_img">Choisir Image</string>
+
+    <string name="img_desc">Image de la Plante</string>
+    <string name="ic_edit_desc">Image de la Plante</string>
+    <string name="ic_water_desc">Image de la Plante</string>
+
+    <string name="db_failed">Insertion a échoué. Update de </string>
+
+    <string name="notif_text">Vous avez des plantes à arroser !</string>
+    <string name="close">Fermer</string>
+    <string name="quit">Quitter</string>
+</resources>

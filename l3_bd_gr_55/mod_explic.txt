@@ -1,0 +1,47 @@
+
+███████╗██╗░░██╗██████╗░██╗░░░░░██╗░█████╗░░█████╗░████████╗██╗░█████╗░███╗░░██╗
+██╔════╝╚██╗██╔╝██╔══██╗██║░░░░░██║██╔══██╗██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║
+█████╗░░░╚███╔╝░██████╔╝██║░░░░░██║██║░░╚═╝███████║░░░██║░░░██║██║░░██║██╔██╗██║
+██╔══╝░░░██╔██╗░██╔═══╝░██║░░░░░██║██║░░██╗██╔══██║░░░██║░░░██║██║░░██║██║╚████║
+███████╗██╔╝╚██╗██║░░░░░███████╗██║╚█████╔╝██║░░██║░░░██║░░░██║╚█████╔╝██║░╚███║
+╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚══════╝╚═╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝
+
+███╗░░░███╗░█████╗░██████╗░███████╗██╗░░░░░██╗░██████╗░█████╗░████████╗██╗░█████╗░███╗░░██╗
+████╗░████║██╔══██╗██╔══██╗██╔════╝██║░░░░░██║██╔════╝██╔══██╗╚══██╔══╝██║██╔══██╗████╗░██║
+██╔████╔██║██║░░██║██║░░██║█████╗░░██║░░░░░██║╚█████╗░███████║░░░██║░░░██║██║░░██║██╔██╗██║
+██║╚██╔╝██║██║░░██║██║░░██║██╔══╝░░██║░░░░░██║░╚═══██╗██╔══██║░░░██║░░░██║██║░░██║██║╚████║
+██║░╚═╝░██║╚█████╔╝██████╔╝███████╗███████╗██║██████╔╝██║░░██║░░░██║░░░██║╚█████╔╝██║░╚███║
+╚═╝░░░░░╚═╝░╚════╝░╚═════╝░╚══════╝╚══════╝╚═╝╚═════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░╚══╝
+
+
+Notre base de données est celle d'une boutique de pret à porter en ligne.
+Le client se connecte pour ajouter des produits à son panier. Il peut
+ensuite commander ces vetements. Il aura accès à un suivi des différents
+produits achetés. Il a la possibilité de retourner et de se faire rembourser
+avant x jours.
+
+
+
+CONTRAINTES :
+
+Pour toute instance de commande , remboursement et client on a :
+date_insr < date_cmd < date_remb.
+
+anniversaire < date.now().
+
+Un avis ne peut etre donné que si le client a déjà acheté le produit.
+
+Pour id_cmd et id_produit
+Remboursement et Retour sont sous ensemble de OrderItem.
+
+NOT NULL pour id_cmd et id_produit sur OrderItem.
+
+Dans SuiviProduit, date_expedition < date_livraison
+et date_expedition NOT NULL si statut == "livré" ou "en livraison",
+et date_livraison NOT NULL si statut == "livré".
+
+Lorsqu'on crée une commande, on crée aussi un ou des OrderItems et un suivi.
+
+A chaque vente on met à jour le tableau VolumeVente.
+
+Un produit ne peut etre remboursé qu'avant x jours apres l'achat.

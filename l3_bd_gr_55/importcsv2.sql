@@ -1,0 +1,11 @@
+\COPY Client(nom, prenom, telephone, email, adresse, anniversaire, date_inscription) FROM 'CSV2/Client.csv' DELIMITER ',' CSV HEADER;
+\COPY Produits(poids, nom, prix, marque, origine, stock, taille) FROM 'CSV2/Produits.csv' DELIMITER ',' CSV HEADER;
+\COPY Panier(id_produit,id_client,quantite) FROM 'CSV2/Panier.csv' DELIMITER ',' CSV HEADER;
+\COPY Matiere(nom_matiere) FROM 'CSV2/Matiere.csv' DELIMITER ',' CSV HEADER;
+\COPY Composition(id_produit, id_matiere) FROM 'CSV2/Composition.csv' DELIMITER ',' CSV HEADER;
+\COPY Commande(id_client,date_cmd,adr_livraison,payee,etat) FROM 'CSV2/Commande.csv' DELIMITER ',' CSV HEADER;
+\COPY OrderItem(id_cmd,id_produit) FROM 'CSV2/OrderItem.csv' DELIMITER ',' CSV HEADER;
+\COPY Historique(prix,id_produit,date_vendu) FROM 'CSV2/Historique.csv' DELIMITER ',' CSV HEADER;
+\COPY SuiviProduit(id_order,statut,date_expedition,date_livraison) FROM 'CSV2/SuiviProduit.csv' DELIMITER ',' CSV HEADER;
+\COPY Avis(id_client,id_order,commentaire,note,id_produit) FROM 'CSV2/Avis.csv' WITH DELIMITER ',' NULL AS 'null' CSV  HEADER;
+\COPY Rembours_retour(id_order,montant,statut,date_retour,date_delai,raison) FROM 'CSV2/Rembours_retour.csv' DELIMITER ',' CSV HEADER;

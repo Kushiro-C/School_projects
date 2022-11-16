@@ -1,0 +1,129 @@
+## Tables de base :
+
+
+Personne =
+    PK : id_personne
+    Nom
+    Prenom
+    DateDeNaissance
+
+Artiste =
+    PK : (id_personne, id_artiste)
+    Nom
+    Prenom
+    DateDeNaissance
+
+Agent =
+    PK : (id_personne, id_agent, id_agence)
+    FK : id_agence
+    Nom
+    Prenom
+    DateDeNaissance
+
+Producteur/Studio =
+    PK : (id_personne, id_producteur)
+    Nom
+    Prenom
+    DateDeNaissance
+
+Metier =
+    PK : id_metier
+    NomMetier
+
+Agence =
+    PK : id_agence
+    NomAgence
+
+Formation =
+    PK : id_formation
+    NomFormation
+
+Langue =
+    PK : id_langue
+    Pays
+
+Instrument =
+    PK : NomInstrument
+
+StyleDeMusique =
+    PK : NomStyle
+
+Realisation =
+    PK : id_realisation
+    Nom
+    Date
+    NbSpectateurs
+
+Critique =
+    PK : (id_critique, id_realisation)
+    FK : id_realisation
+    Commentaire
+    Distinction
+
+Demande =
+    PK : (id_demande, id_producteur)
+    FK : id_producteur
+    ProfilRecherche
+    Projet
+    DateDebut
+    DateFin
+
+contrat_agence-artiste =
+    PK : (id_contrat, id_artiste, id_agence)
+    FK : id_artiste, id_agence
+    Pourcent_artiste_producteur
+    DateDebut
+    DateFin (Null si indéterminé)
+    Renumeration
+
+contrat_artiste-producteur =
+    PK : (id_contrat, id_artiste, id_producteur)
+    FK : id_artiste, id_producteur
+    Pourcentage_participation
+    NombreVersements
+    DateDebut
+    DateFin (Null si indéterminé)
+    Renumeration
+
+Paiement =
+    PK : (id_paiement, id_contrat)
+    FK : id_contrat
+    Type (frais, commissions, honoraires)
+    Date_prevu
+    Date_effectue
+    Montant
+
+## Tables crées par relation :
+
+A_fait :
+    PK : (id_personne, id_formation)
+    FK : id_personne, id_formation
+
+Parle :
+    PK : (id_personne, id_langue)
+    FK : id_personne, id_langue
+
+Maitrise :
+    PK : (id_artiste, NomInstrument)
+    FK : id_artiste, NomInstrument
+
+Joue :
+    PK : (id_artiste, NomStyle)
+    FK : id_artiste, NomStyle
+
+A_participe :
+    PK : (id_artiste, id_realisation)
+    FK : id_artiste, id_realisation
+
+Auditionne :
+    PK : (id_artiste, id_demande)
+    FK : id_artiste, id_demande
+    reponse (NULL)
+
+Exerce :
+    PK : (id_personne, id_metier)
+    FK : id_personne, id_metier
+
+Connait :
+    PK : (id_personne, id_personne)
+    FK : id_personne, id_personne

@@ -1,0 +1,44 @@
+Var x;
+Var angle;
+
+Debut
+
+
+Avance 200;
+Tourne -90;
+Avance 400;
+Tourne 90;
+
+BasPinceau;
+angle = 50;
+x=5;
+Avance 50;
+
+Si x
+Alors
+    Debut ChangeCouleur jaune; x = 0; Fin
+Sinon
+    Debut ChangeCouleur bleu; x = 0; Fin;
+
+Avance 100;
+
+Si x
+Alors
+    ChangeCouleur vert;
+
+Avance 100;
+Tourne angle;
+Avance 100;
+
+ChangeCouleur rouge;
+ChangeEpaisseur 5;
+Avance 100;
+ChangeEpaisseur 8;
+x = 7;
+
+Tant que x
+Faire
+    Debut x=x-1; Avance 100; Tourne angle; Fin;
+
+
+Fin

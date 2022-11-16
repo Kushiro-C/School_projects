@@ -1,0 +1,26 @@
+{
+  "name": "l3_web_projet",
+  "version": "1.0.0",
+  "description": "project l3",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "jquery-zoom": "^1.7.21",
+    "mysql": "^2.18.1",
+    "pg-promise": "^10.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab-secondaire:du/l3_web_projet.git"
+  },
+  "author": "Patrick Vincent",
+  "license": "ISC"
+}

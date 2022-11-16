@@ -1,0 +1,41 @@
+(declare-datatypes () ((A a b d) (T e ea eab ead eada eb eba ed eda)))
+
+(define-sort Q () Int)
+(declare-const n Q)
+(assert (> n 0))
+
+(declare-fun delta (Q A) Q)
+(assert (forall ((q Q) (a A))
+  (and (>= (delta q a) 0) (< (delta q a) n))))
+
+(declare-fun final (Q) Bool)
+
+(declare-fun f (T) Q)
+(assert (forall ((x T))
+  (and (>= (f x) 0) (< (f x) n))))
+
+(assert (= 0 (f e)))
+
+(assert (and 
+           (= (f ea)  (delta (f e)  a))
+           (= (f eab)  (delta (f ea)  b))
+           (= (f ead)  (delta (f ea)  d))
+           (= (f eada)  (delta (f ead)  a))
+           (= (f eb)  (delta (f e)  b))
+           (= (f eba)  (delta (f eb)  a))
+           (= (f ed)  (delta (f e)  d))
+           (= (f eda)  (delta (f ed)  a))))
+
+(assert (and 
+           (final (f eada))
+           (final (f eda))
+           (final (f eba))
+           (not(final (f ead)))
+           (not(final (f eab)))
+           (not(final (f eb)))))
+
+(check-sat-using (then qe smt))
+
+(get-model)
+
+(exit)

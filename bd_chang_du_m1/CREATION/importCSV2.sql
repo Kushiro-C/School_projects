@@ -1,0 +1,18 @@
+\COPY Personne(nom_personne, prenom_personne, date_naissance) FROM 'CREATION/CSV2/personne.csv' DELIMITER ',' CSV HEADER;
+\COPY Agence(nom_agence) FROM 'CREATION/CSV2/agence.csv' DELIMITER ',' CSV HEADER;
+\COPY Agent(id_personne,id_agence) FROM 'CREATION/CSV2/agent.csv' DELIMITER ',' CSV HEADER;
+\COPY Artiste(id_personne) FROM 'CREATION/CSV2/artiste.csv' DELIMITER ',' CSV HEADER;
+\COPY Producteur(id_personne) FROM 'CREATION/CSV2/producteur.csv' DELIMITER ',' CSV HEADER;
+\COPY Contrat(date_debut_contrat,date_fin_contrat,remuneration) FROM 'CREATION/CSV2/contrat.csv' DELIMITER ',' CSV HEADER;
+\COPY Contrat_agence_artiste(id_contrat,id_agence,id_artiste,pourcent_art_ag) FROM 'CREATION/CSV2/contrat_agence_artiste.csv' DELIMITER ',' CSV HEADER;
+\COPY Contrat_artiste_producteur(id_contrat,id_producteur,id_artiste,pourcent_art_prod,nombreVersements) FROM 'CREATION/CSV2/contrat_artiste_producteur.csv' DELIMITER ',' CSV HEADER;
+\COPY Paiement(id_contrat,type_paiement,date_prevu,date_effectue,montant) FROM 'CREATION/CSV2/paiement.csv' DELIMITER ',' CSV HEADER;
+\COPY Represente(id_artiste,id_agent,date_debut_represente,date_fin_represente) FROM 'CREATION/CSV2/represente.csv' DELIMITER ',' CSV HEADER;
+\COPY Langue(nom_langue) FROM 'CREATION/CSV1/langue.csv' DELIMITER ',' CSV HEADER;
+\COPY Parle(id_personne,nom_langue) FROM 'CREATION/CSV2/parle.csv' DELIMITER ',' CSV HEADER;
+\COPY Instrument(nom_instrument) FROM 'CREATION/CSV1/instrument.csv' DELIMITER ',' CSV HEADER;
+\COPY StyleDeMusique(nom_styleDeMusique) FROM 'CREATION/CSV1/styleDeMusique.csv' DELIMITER ',' CSV HEADER;
+\COPY Maitrise(id_artiste,nom_instrument) FROM 'CREATION/CSV2/maitrise.csv' DELIMITER ',' CSV HEADER;
+\COPY Formation(nom_formation) FROM 'CREATION/CSV1/formation.csv' DELIMITER ',' CSV HEADER;
+\COPY A_fait(nom_formation,id_personne) FROM 'CREATION/CSV2/a_fait.csv' DELIMITER ',' CSV HEADER;
+\COPY Joue(id_artiste,nom_styleDeMusique) FROM 'CREATION/CSV2/joue.csv' DELIMITER ',' CSV HEADER;

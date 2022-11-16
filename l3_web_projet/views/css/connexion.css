@@ -1,0 +1,31 @@
+body {
+    margin: auto;
+
+}
+
+
+
+
+thead,
+tfoot {
+    background-color: #333;
+    color           : #fff;
+}
+
+.inputform {
+    padding         : 10px;
+    background-color: #e48b06;
+    color           : white;
+    border          : 0;
+    box-sizing      : border-box;
+    cursor          : pointer;
+    font-weight     : bold;
+    text-decoration : none;
+    transition      : 0.2s;
+}
+
+.inputform:hover {
+    color: #e48b06;
+    background-color: white;
+    transition: 0.2s;
+}

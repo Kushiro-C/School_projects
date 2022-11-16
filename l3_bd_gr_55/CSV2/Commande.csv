@@ -1,0 +1,511 @@
+id_client, date_cmd, adr_livraison,payee,etat
+34,29-05-21,"P.O. Box 449, 5747 Ligula Street",TRUE,valide
+24,27-01-21,183-5865 Cras Ave,TRUE,valide
+70,05-06-20,Ap #433-7530 Mauris Rd.,TRUE,preparation
+85,02-07-20,9543 Purus Ave,TRUE,valide
+14,17-02-21,5394 Dui. Av.,FALSE,valide
+35,29-11-20,6621 Dictum Rd.,FALSE,valide
+36,24-11-21,546-1585 Vivamus St.,FALSE,valide
+9, 24-09-21,"P.O. Box 810,5640 Varius Ave",FALSE,valide
+64,13-03-22,"P.O. Box 449, 9533 Cubilia Road",TRUE,preparation
+96,16-12-21,Ap #595-9938 Ut Avenue,FALSE,valide
+156,18-07-21,7780 Per Ave,TRUE,preparation
+186,04-09-21,155 Sit St.,TRUE,preparation
+105,20-10-21,"P.O. Box 458, 301 Mollis Rd.",FALSE,preparation
+151,12-01-22,"P.O. Box 169, 2385 Lectus Road",TRUE,valide
+127,22-02-21,"P.O. Box 692, 8084 Sapien. Ave",FALSE,valide
+171,08-02-21,1201 Nec Street,TRUE,valide
+198,26-01-22,8765 Sollicitudin St.,FALSE,preparation
+117,28-11-21,850-9774 Mattis. Road,TRUE,preparation
+126,17-08-20,5370 Curae; Ave,FALSE,preparation
+114,30-12-21,755-8906 Neque Street,TRUE,valide
+153,03-10-20,"P.O. Box 814, 7552 Dis Avenue",FALSE,preparation
+101,29-07-20,"P.O. Box 407, 8259 Viverra. Street",TRUE,valide
+194,29-07-20,702 Dictum Avenue,FALSE,valide
+186,14-06-21,Ap #435-7176 Libero. Ave,FALSE,valide
+150,18-11-20,953-725 Vitae Road,TRUE,preparation
+169,21-06-21,Ap #649-1538 Lacus Rd.,TRUE,valide
+120,27-11-21,"P.O. Box 450, 3347 Eget Ave",FALSE,preparation
+160,27-09-21,522-7241 Consequat Ave,FALSE,valide
+118,04-03-22,2755 Nec Rd.,FALSE,valide
+143,12-04-21,323-4085 Lorem Road,TRUE,valide
+126,18-10-20,270-8322 Mi St.,TRUE,preparation
+132,20-02-21,"P.O. Box 863, 8409 Enim Av.",FALSE,valide
+145,28-12-20,Ap #726-9530 In Rd.,FALSE,preparation
+114,12-05-21,9736 Ac Ave,FALSE,preparation
+173,18-02-22,"P.O. Box 471, 4138 Integer Avenue",FALSE,preparation
+151,01-03-21,902-2884 Amet Street,FALSE,valide
+146,22-11-21,5237 Magna. St.,FALSE,preparation
+151,04-07-20,Ap #773-4942 Ut Street,FALSE,preparation
+104,21-09-20,"6596 Et, Ave",TRUE,valide
+147,05-07-20,"127-4258 Tellus, St.",FALSE,valide
+148,12-08-21,Ap #950-6280 Vitae Road,FALSE,valide
+118,10-04-21,170-6881 Mauris Road,TRUE,valide
+118,12-04-22,Ap #844-7087 Aliquam Rd.,FALSE,valide
+137,04-10-21,"P.O. Box 312, 1422 Dapibus Rd.",TRUE,valide
+157,15-02-22,407-1533 Et Av.,FALSE,preparation
+131,12-10-21,"P.O. Box 126, 1924 Nunc Rd.",TRUE,valide
+125,02-04-22,"P.O. Box 441, 261 Commodo Rd.",FALSE,valide
+121,02-09-20,"556-3664 Vulputate, Rd.",TRUE,preparation
+163,12-08-20,6784 Diam. Av.,FALSE,preparation
+102,19-12-21,"188-433 A, Av.",FALSE,preparation
+196,08-10-21,"P.O. Box 572, 3035 Vel, Ave",FALSE,valide
+121,14-10-21,378-2951 Egestas. St.,TRUE,valide
+110,28-10-20,Ap #948-2513 Pede. Ave,FALSE,valide
+130,14-01-21,252-8629 Sem Avenue,FALSE,valide
+170,11-03-22,501-8725 Mus. Rd.,FALSE,preparation
+175,22-05-20,796 Tristique Street,FALSE,preparation
+170,30-12-20,"P.O. Box 565, 8954 Tortor, St.",FALSE,valide
+115,21-03-21,4389 Auctor St.,TRUE,valide
+195,25-01-21,128-3567 Fusce Rd.,TRUE,preparation
+194,17-11-21,"P.O. Box 439, 3245 Parturient Rd.",FALSE,valide
+121,14-03-21,837-8012 Phasellus Av.,FALSE,valide
+145,08-03-21,"P.O. Box 810, 4746 Vitae Road",FALSE,preparation
+177,22-02-21,Ap #938-9407 Vel St.,TRUE,valide
+184,19-06-21,846-5379 Maecenas Rd.,TRUE,valide
+117,07-01-21,5160 Malesuada Av.,TRUE,preparation
+104,11-11-20,Ap #673-1853 Lectus Street,FALSE,valide
+102,10-08-20,"189-3290 Et, Ave",FALSE,valide
+151,16-03-22,Ap #398-168 Est. Road,FALSE,valide
+124,10-09-20,"P.O. Box 416, 7716 Convallis Street",TRUE,valide
+183,02-08-20,"P.O. Box 135, 7243 Lacus. St.",TRUE,valide
+195,18-03-22,"P.O. Box 721, 2700 Nisl St.",FALSE,valide
+100,17-07-20,"P.O. Box 501, 2206 Feugiat Avenue",FALSE,preparation
+153,13-06-21,166-1056 Lectus Rd.,TRUE,valide
+195,06-02-21,"1857 Elementum, Av.",TRUE,preparation
+171,20-08-20,5321 In Ave,TRUE,preparation
+175,31-08-20,Ap #504-996 Justo St.,TRUE,preparation
+154,26-01-21,572-3264 Commodo Road,TRUE,valide
+157,22-03-22,"P.O. Box 889, 7714 Arcu. Avenue",FALSE,valide
+166,02-03-21,"P.O. Box 386, 8413 Tincidunt, St.",TRUE,valide
+137,07-04-22,4669 Sollicitudin Rd.,TRUE,preparation
+191,19-01-21,280-7443 Varius Avenue,FALSE,valide
+116,22-11-21,8787 Pede Avenue,FALSE,valide
+174,28-01-22,Ap #212-9377 Eleifend. Street,TRUE,valide
+129,05-04-22,711-6918 Ut Rd.,FALSE,valide
+125,25-09-21,573-7975 Nunc Road,FALSE,valide
+100,07-06-21,"Ap #710-987 Enim, Rd.",TRUE,valide
+163,28-01-21,"P.O. Box 195, 9936 Dolor St.",FALSE,valide
+149,26-08-21,Ap #321-8763 Pharetra Ave,TRUE,preparation
+111,07-06-21,Ap #763-7986 Ornare. St.,TRUE,valide
+187,27-04-21,"P.O. Box 248, 7588 Curabitur Rd.",TRUE,preparation
+169,15-01-22,Ap #984-3100 Non Av.,TRUE,preparation
+152,04-06-20,"P.O. Box 311, 559 Orci St.",FALSE,valide
+196,19-04-21,3505 Pharetra St.,TRUE,valide
+109,11-12-20,"P.O. Box 307, 9956 Placerat St.",FALSE,valide
+189,28-10-21,390-1876 Nonummy Road,TRUE,valide
+141,09-05-21,924-4398 Nonummy Street,FALSE,preparation
+191,22-06-21,9685 Sit Avenue,TRUE,valide
+186,25-01-22,327-9471 Vel Road,FALSE,valide
+135,10-05-20,"Ap #578-3665 Tincidunt, Street",FALSE,valide
+173,20-10-20,573-5572 Rutrum Road,FALSE,valide
+193,15-05-20,"P.O. Box 297, 7260 Diam Rd.",FALSE,valide
+170,22-02-22,527-5536 Quis St.,FALSE,valide
+126,01-08-21,6331 Ante Rd.,TRUE,preparation
+111,16-11-20,361-1060 Lobortis Ave,FALSE,preparation
+131,04-03-22,"P.O. Box 823, 3843 Egestas Rd.",FALSE,preparation
+141,01-02-21,"P.O. Box 709, 3681 Auctor, Av.",TRUE,valide
+130,01-02-22,9779 Phasellus Rd.,FALSE,preparation
+139,06-11-20,1508 Fringilla St.,TRUE,preparation
+137,10-11-20,747-2547 Nulla. Avenue,FALSE,valide
+176,01-11-20,"P.O. Box 145, 5286 Nulla Av.",FALSE,valide
+285,02-04-22,581-3794 Sit St.,TRUE,valide
+267,22-09-21,888-3390 Risus. St.,TRUE,preparation
+201,17-07-20,"P.O. Box 852, 5830 Mi Ave",TRUE,valide
+248,05-10-20,"P.O. Box 878, 6854 Sagittis St.",FALSE,preparation
+206,03-01-21,"P.O. Box 282, 5116 Nostra, Road",FALSE,valide
+299,25-12-21,9912 Egestas. St.,TRUE,preparation
+269,26-10-20,Ap #815-4295 Pellentesque St.,TRUE,valide
+236,14-10-21,"P.O. Box 828, 1361 Dolor. Street",FALSE,preparation
+239,13-12-20,767 Ipsum Avenue,TRUE,preparation
+290,18-07-21,"P.O. Box 152, 6227 Penatibus Av.",FALSE,preparation
+209,21-01-22,Ap #266-3257 Ante. Av.,FALSE,preparation
+290,06-11-21,821-7026 Risus Street,FALSE,preparation
+291,14-05-20,"P.O. Box 724, 3354 Mi Road",TRUE,valide
+261,23-12-20,"P.O. Box 421, 3555 Mus. St.",TRUE,preparation
+257,01-08-21,"P.O. Box 381, 1173 Consequat St.",TRUE,valide
+220,11-06-20,"P.O. Box 640, 9864 Nullam Rd.",TRUE,valide
+227,09-03-21,"975-7450 A, St.",FALSE,preparation
+263,05-02-21,730-4179 Sapien St.,TRUE,preparation
+202,22-09-20,2492 Ipsum. St.,FALSE,valide
+289,06-09-21,Ap #144-8835 Quisque Rd.,FALSE,preparation
+236,05-09-21,"P.O. Box 171, 8178 Malesuada St.",FALSE,preparation
+209,12-09-21,"958-4810 Pede, Avenue",TRUE,valide
+235,31-01-21,348-9740 Dolor Av.,TRUE,preparation
+256,08-03-21,Ap #121-6617 Mollis Street,TRUE,valide
+206,14-05-20,"P.O. Box 237, 5771 Cursus Rd.",TRUE,valide
+214,22-08-20,"P.O. Box 434, 9430 Aliquam Ave",FALSE,valide
+200,24-01-21,2081 Facilisis Avenue,TRUE,preparation
+221,22-12-21,Ap #672-8823 Egestas St.,TRUE,valide
+277,17-09-20,Ap #796-8061 Lacus. St.,TRUE,preparation
+257,20-10-21,"P.O. Box 484, 6587 Nunc Rd.",TRUE,valide
+277,10-03-21,441-8582 Pellentesque Ave,TRUE,valide
+286,09-10-21,"P.O. Box 144, 1070 In Av.",TRUE,preparation
+208,31-08-21,"P.O. Box 286, 7755 Scelerisque Rd.",FALSE,valide
+255,30-07-21,Ap #687-9985 A Av.,TRUE,preparation
+253,21-08-21,"7048 Dolor, Street",FALSE,valide
+299,17-12-21,"P.O. Box 902, 3807 Sit St.",FALSE,valide
+254,23-08-20,141-7428 Dis Rd.,FALSE,preparation
+284,31-10-21,Ap #561-9001 Risus. Ave,FALSE,valide
+253,31-08-20,Ap #777-5998 Tortor Road,TRUE,preparation
+233,05-08-20,"P.O. Box 435, 6111 Iaculis Rd.",TRUE,valide
+214,30-06-21,"P.O. Box 717, 9014 Et St.",FALSE,preparation
+290,02-04-21,893-6265 Rutrum Rd.,FALSE,valide
+271,30-04-21,116-9479 Donec Road,FALSE,preparation
+231,02-12-21,"5588 A, Street",TRUE,valide
+238,31-05-20,Ap #367-1448 Nonummy Road,FALSE,preparation
+291,27-02-22,773-9333 Convallis Avenue,FALSE,valide
+207,20-05-21,5418 Netus Avenue,FALSE,preparation
+227,10-07-20,"P.O. Box 970, 3196 Feugiat. Rd.",TRUE,valide
+227,01-07-21,"P.O. Box 628, 4525 Viverra. Road",FALSE,preparation
+202,18-11-20,Ap #444-9602 Orci. St.,FALSE,valide
+292,22-06-20,Ap #688-7550 Massa. Rd.,TRUE,valide
+262,28-09-21,"P.O. Box 399, 5112 Aenean Avenue",TRUE,valide
+259,10-08-21,Ap #428-9197 Lectus Avenue,TRUE,preparation
+252,24-01-21,"P.O. Box 123, 2451 Nec, Av.",TRUE,valide
+231,23-09-21,Ap #670-9291 Aliquam Ave,TRUE,preparation
+253,05-09-21,"P.O. Box 879, 2284 Risus. Street",TRUE,preparation
+262,08-06-21,"P.O. Box 125, 6885 Velit. Avenue",TRUE,preparation
+258,21-11-20,Ap #719-1452 Tellus. Street,TRUE,preparation
+227,18-12-21,"Ap #355-4272 Pede, Rd.",FALSE,valide
+289,02-10-20,470-8895 Leo. Street,FALSE,valide
+227,30-08-21,Ap #375-973 Mauris St.,TRUE,preparation
+210,21-07-21,4449 Lorem St.,FALSE,valide
+210,28-10-21,"P.O. Box 817, 3210 Sit Av.",TRUE,preparation
+285,15-10-21,Ap #192-8262 Sollicitudin Street,TRUE,preparation
+281,01-05-21,3177 Ligula. St.,FALSE,valide
+208,17-10-20,"P.O. Box 181, 4072 Eu Ave",TRUE,valide
+255,22-05-20,Ap #301-5202 Egestas St.,FALSE,valide
+284,14-05-21,Ap #655-4451 Nunc St.,FALSE,valide
+242,26-08-20,"P.O. Box 912, 7793 Ipsum Rd.",FALSE,valide
+297,07-02-21,Ap #471-8924 Sed Avenue,FALSE,preparation
+267,20-11-21,188-6904 Tincidunt Rd.,TRUE,preparation
+202,16-06-20,"P.O. Box 756, 5690 Sed, St.",TRUE,preparation
+270,06-08-21,208-6126 Vulputate St.,FALSE,valide
+210,04-07-21,270-4956 Sociis Rd.,TRUE,preparation
+229,21-12-21,"P.O. Box 826, 7317 Integer St.",TRUE,preparation
+276,09-11-21,"P.O. Box 161, 7837 Suspendisse Avenue",TRUE,valide
+245,01-05-22,Ap #257-8130 Vel Rd.,FALSE,preparation
+238,22-11-21,"P.O. Box 727, 811 Pellentesque Rd.",FALSE,valide
+254,17-02-22,Ap #985-6583 Mollis. Avenue,TRUE,valide
+232,30-10-20,Ap #112-4084 Mollis. St.,TRUE,preparation
+246,26-06-21,"Ap #299-5993 Vel, Street",FALSE,preparation
+220,23-12-21,380-6149 Urna Av.,TRUE,preparation
+237,12-09-20,419-7466 Nulla St.,TRUE,valide
+205,27-10-21,207-8376 Sodales Ave,TRUE,valide
+232,17-10-21,"P.O. Box 982, 184 Interdum Road",TRUE,valide
+219,30-01-21,"P.O. Box 256, 2275 Molestie Street",TRUE,valide
+223,12-03-21,3516 Diam Avenue,FALSE,valide
+260,16-07-20,9529 Varius. Road,FALSE,valide
+217,30-04-22,8438 Placerat Road,FALSE,valide
+240,25-06-21,410-9701 Penatibus Avenue,TRUE,preparation
+235,30-11-21,"P.O. Box 735, 5189 Taciti Rd.",FALSE,valide
+204,16-09-20,9826 Arcu Rd.,FALSE,preparation
+279,22-07-20,Ap #856-7954 Cras Street,FALSE,preparation
+261,03-11-21,Ap #584-216 Aliquet Road,FALSE,valide
+250,24-01-22,"P.O. Box 298, 1828 Nec Rd.",FALSE,preparation
+263,22-02-22,"P.O. Box 471, 325 Fames Street",FALSE,preparation
+296,08-03-22,Ap #769-6608 Ipsum. Rd.,FALSE,valide
+285,21-08-20,281-7877 Morbi St.,TRUE,preparation
+299,27-01-21,695-8518 Ligula. St.,TRUE,valide
+298,10-09-20,"P.O. Box 460, 6242 Ut Avenue",FALSE,preparation
+276,10-04-22,Ap #423-2256 Molestie. Avenue,TRUE,preparation
+277,30-12-20,478-1584 Metus. Ave,TRUE,valide
+276,22-10-21,"P.O. Box 590, 7125 Tincidunt Road",TRUE,preparation
+291,27-01-21,500-1823 Quisque Road,FALSE,valide
+300,26-05-20,Ap #624-1310 Iaculis Road,TRUE,valide
+256,01-11-21,Ap #738-6727 Vel Road,FALSE,preparation
+219,14-12-20,129-3617 Lacus Road,FALSE,preparation
+213,02-07-21,Ap #277-2813 Sollicitudin Rd.,FALSE,valide
+213,24-11-21,8749 Pretium Road,FALSE,valide
+269,26-03-21,"976-1487 Pharetra, Rd.",FALSE,valide
+267,30-09-21,Ap #373-9910 Nec Ave,FALSE,preparation
+254,16-06-21,4916 Magna. Avenue,FALSE,preparation
+220,05-04-22,2002 Mi Avenue,FALSE,preparation
+234,10-09-21,"P.O. Box 243, 3031 Non Av.",FALSE,preparation
+233,09-11-21,Ap #600-1654 Vulputate Avenue,FALSE,preparation
+288,04-07-20,519-3887 Pharetra Avenue,TRUE,valide
+244,03-09-21,"P.O. Box 282, 8267 Enim, Road",TRUE,preparation
+240,12-06-20,889-7176 Tincidunt Avenue,FALSE,valide
+255,29-05-21,548-2635 Nunc. Street,FALSE,valide
+232,26-09-21,"P.O. Box 886, 2294 Scelerisque Avenue",FALSE,valide
+241,18-05-21,663-6422 Mauris Rd.,TRUE,preparation
+290,13-08-20,"P.O. Box 468, 480 Aliquam St.",FALSE,valide
+282,21-06-20,Ap #359-5729 Habitant Rd.,FALSE,preparation
+215,22-02-22,Ap #594-418 Donec Avenue,FALSE,valide
+231,09-07-20,"754-2534 Amet, Rd.",FALSE,preparation
+201,09-02-22,7304 Ridiculus Av.,FALSE,preparation
+274,06-10-21,Ap #959-1485 Nibh St.,TRUE,preparation
+274,28-01-21,"P.O. Box 401, 7884 Non Ave",TRUE,valide
+234,28-01-22,203-675 Suspendisse Rd.,TRUE,valide
+263,21-10-21,3960 Purus. Rd.,FALSE,valide
+262,09-06-20,"Ap #139-4417 Nec, Rd.",TRUE,valide
+253,27-11-20,"P.O. Box 781, 8515 A, Av.",TRUE,valide
+252,04-08-21,Ap #734-9114 Convallis Rd.,FALSE,preparation
+275,10-07-21,Ap #812-6408 Enim St.,FALSE,valide
+284,22-09-21,Ap #204-6244 Arcu St.,TRUE,valide
+283,23-06-21,3369 Lacus. Av.,FALSE,valide
+242,07-02-22,2373 Vivamus Road,TRUE,valide
+235,30-10-20,Ap #786-2627 Aliquam Rd.,FALSE,preparation
+276,07-12-21,2327 Nec Rd.,TRUE,preparation
+231,09-06-20,Ap #233-2756 Feugiat St.,FALSE,valide
+270,20-12-21,517-723 Sed Rd.,TRUE,valide
+219,01-04-22,Ap #736-5150 Sodales Avenue,FALSE,preparation
+207,24-11-20,2692 Morbi Street,FALSE,preparation
+258,17-01-21,9972 Egestas St.,TRUE,valide
+282,22-12-20,Ap #985-863 Malesuada. Av.,TRUE,preparation
+244,26-12-21,9054 Quam Avenue,TRUE,valide
+227,16-05-21,"P.O. Box 434, 4188 Libero. Rd.",FALSE,valide
+230,04-07-20,"P.O. Box 615, 2681 Lorem Rd.",FALSE,preparation
+226,01-04-22,201-4664 Mollis. St.,TRUE,preparation
+259,20-10-21,707-3168 Eget Road,FALSE,valide
+220,10-03-21,3542 Eget Avenue,FALSE,valide
+299,23-03-21,"P.O. Box 399, 8701 Non Av.",FALSE,preparation
+204,25-11-20,"Ap #261-4686 Ornare, Rd.",FALSE,preparation
+300,04-01-21,686-722 Vulputate Avenue,TRUE,preparation
+210,08-06-21,668-800 Phasellus Road,TRUE,preparation
+259,13-05-21,8848 Neque Road,TRUE,valide
+273,19-12-21,6238 Donec Ave,TRUE,preparation
+213,13-05-20,"9129 Vulputate, St.",FALSE,preparation
+207,23-11-20,"2440 Tempus, St.",TRUE,preparation
+226,31-03-21,228-9722 Vivamus Av.,TRUE,preparation
+208,25-11-21,573-9089 Malesuada Road,TRUE,preparation
+248,10-10-21,"P.O. Box 609, 2323 Nunc Avenue",FALSE,valide
+243,02-12-20,4993 Integer St.,FALSE,preparation
+288,15-04-21,"P.O. Box 103, 5869 Aliquam St.",TRUE,valide
+223,24-04-22,Ap #360-8412 Integer Avenue,FALSE,preparation
+288,27-08-21,Ap #923-8474 Est. Avenue,FALSE,preparation
+204,17-08-21,"4372 Pharetra, Road",FALSE,valide
+232,22-04-22,679-9127 Gravida. St.,FALSE,valide
+251,20-10-20,"Ap #890-4979 Et, Rd.",FALSE,preparation
+219,12-12-20,"P.O. Box 594, 3971 Vulputate, Street",FALSE,preparation
+215,30-07-20,"P.O. Box 516, 4047 Cursus Street",TRUE,valide
+220,14-02-22,"P.O. Box 615, 5641 Nascetur Rd.",FALSE,valide
+256,01-05-20,"P.O. Box 810, 4202 Eleifend Street",FALSE,preparation
+233,23-01-22,"P.O. Box 888, 5523 Neque. St.",TRUE,preparation
+217,01-08-21,Ap #802-5528 Orci Avenue,FALSE,preparation
+241,27-04-21,948-8100 Dignissim. Rd.,FALSE,valide
+213,21-01-21,5693 Non Street,TRUE,valide
+225,30-07-21,652-2491 Blandit Av.,TRUE,preparation
+294,29-01-21,"P.O. Box 997, 1201 Cras St.",TRUE,preparation
+300,21-06-20,Ap #811-8067 Tristique Street,FALSE,preparation
+210,13-08-21,"Ap #768-4341 Non, Ave",FALSE,preparation
+293,08-05-21,Ap #333-9820 Euismod Av.,FALSE,preparation
+239,31-05-21,"P.O. Box 259, 487 Purus, Road",TRUE,preparation
+235,20-08-21,"4257 At, Rd.",FALSE,preparation
+208,27-03-22,287-2978 Etiam Ave,TRUE,preparation
+267,01-10-21,"P.O. Box 478, 8592 Volutpat St.",TRUE,valide
+284,21-01-22,226-482 Phasellus Road,TRUE,valide
+200,21-10-21,917 Sem. Avenue,TRUE,preparation
+276,20-07-21,"P.O. Box 581, 8396 Purus, Av.",TRUE,preparation
+280,12-03-21,"Ap #227-494 Nec, Avenue",TRUE,preparation
+225,21-04-22,"6303 Eget, Rd.",TRUE,preparation
+251,03-10-20,4254 Interdum. Ave,FALSE,valide
+215,20-02-21,Ap #497-7806 Class Rd.,FALSE,valide
+239,19-07-20,977-6171 Euismod St.,FALSE,preparation
+295,18-12-20,"P.O. Box 723, 7743 Natoque Road",FALSE,preparation
+238,14-02-21,Ap #751-6341 Porta Ave,FALSE,preparation
+227,03-08-20,"P.O. Box 338, 9538 Magna Road",TRUE,preparation
+209,17-01-21,"6787 Ullamcorper, St.",TRUE,valide
+210,24-06-20,Ap #238-744 Eget Avenue,FALSE,valide
+299,25-02-22,913-2436 Mollis Ave,TRUE,valide
+336,21-01-21,5617 Nam Road,FALSE,valide
+301,22-06-21,Ap #583-4923 Duis Ave,TRUE,preparation
+301,05-11-21,9625 Fusce Rd.,TRUE,valide
+395,01-08-21,1971 Eget St.,TRUE,preparation
+371,07-01-22,7660 Augue Rd.,TRUE,preparation
+339,08-07-21,153-6866 Nulla Road,FALSE,preparation
+352,29-03-21,"6396 Placerat, Avenue",TRUE,valide
+381,26-06-20,"P.O. Box 731, 8238 Ut Rd.",TRUE,valide
+319,07-07-21,"P.O. Box 513, 3233 Suscipit, Av.",FALSE,valide
+384,02-10-21,Ap #951-3283 Augue Rd.,FALSE,valide
+386,23-10-21,472-5432 Dis Road,TRUE,valide
+330,16-08-21,2017 Lorem Rd.,FALSE,preparation
+307,09-08-21,"4169 Eleifend, Rd.",TRUE,preparation
+370,14-03-22,"Ap #961-5089 Vel, Avenue",FALSE,preparation
+372,12-08-20,207 Luctus Rd.,FALSE,valide
+362,18-06-20,"Ap #228-6215 Nec, Road",TRUE,valide
+317,27-03-22,6052 At Ave,TRUE,preparation
+346,06-01-21,"P.O. Box 121, 1295 Ligula Ave",TRUE,valide
+314,07-10-21,6091 Molestie Avenue,FALSE,preparation
+356,21-08-20,"Ap #331-2950 Et, Road",TRUE,valide
+369,23-05-20,Ap #287-2275 Eget St.,TRUE,preparation
+307,27-08-21,"P.O. Box 997, 9171 Blandit St.",FALSE,preparation
+334,06-06-20,"551-9018 Vitae, Avenue",TRUE,preparation
+331,26-02-21,3156 Tellus St.,TRUE,preparation
+336,17-04-22,"P.O. Box 814, 9499 A, Rd.",TRUE,preparation
+330,15-10-20,2879 Nulla St.,FALSE,preparation
+386,13-02-21,140-4099 Tempor Rd.,FALSE,preparation
+382,15-03-22,"P.O. Box 263, 1472 Tellus St.",TRUE,valide
+389,10-09-21,9927 A Avenue,FALSE,valide
+366,29-01-22,Ap #481-5994 Pulvinar St.,TRUE,preparation
+393,06-04-21,"P.O. Box 555, 3647 Varius Rd.",FALSE,preparation
+391,25-08-21,401 In St.,TRUE,preparation
+335,18-12-20,1806 Feugiat St.,TRUE,preparation
+398,20-02-21,130-7959 Eget St.,FALSE,preparation
+303,24-12-20,4711 Et Avenue,FALSE,preparation
+368,27-11-20,150-7965 Pharetra. Rd.,FALSE,preparation
+348,09-09-21,9434 Mi Avenue,TRUE,valide
+326,05-08-21,Ap #864-6550 Vel St.,TRUE,preparation
+301,22-05-20,7973 Auctor Road,TRUE,preparation
+302,26-09-21,Ap #253-3775 Erat Street,FALSE,preparation
+353,03-05-21,"P.O. Box 222, 7785 In, Ave",TRUE,preparation
+393,29-08-21,304-4286 Aliquam Ave,TRUE,valide
+381,08-12-20,537-5283 Metus. St.,TRUE,preparation
+322,23-05-20,"P.O. Box 804, 4106 Faucibus Rd.",TRUE,preparation
+349,18-08-20,"P.O. Box 375, 625 Tincidunt, Ave",TRUE,valide
+328,10-12-21,5751 Imperdiet Ave,FALSE,valide
+329,01-03-21,"P.O. Box 412, 1754 Enim Street",TRUE,valide
+362,20-08-21,"Ap #514-9957 Elementum, Av.",FALSE,valide
+366,31-10-20,"P.O. Box 145, 1740 A Street",FALSE,valide
+332,20-06-20,"1191 Est, Rd.",TRUE,valide
+302,25-10-20,3930 Eu Road,FALSE,valide
+363,26-08-21,762-3790 Vulputate Rd.,FALSE,preparation
+340,24-09-21,"143-5738 Montes, Avenue",FALSE,preparation
+329,04-02-21,"P.O. Box 447, 9207 Hendrerit Ave",TRUE,valide
+393,04-06-20,Ap #331-6830 Eget Ave,FALSE,valide
+322,25-04-21,Ap #447-3369 Dui. Street,FALSE,preparation
+370,11-10-21,Ap #416-1603 Volutpat Rd.,TRUE,preparation
+373,19-12-21,569-1825 Integer Av.,TRUE,preparation
+327,29-03-22,Ap #772-369 Varius Rd.,TRUE,preparation
+303,14-08-20,"Ap #974-4577 Posuere, Road",TRUE,valide
+323,20-09-20,2048 Mollis. Street,TRUE,preparation
+372,22-07-20,"Ap #799-3607 Nec, Avenue",FALSE,preparation
+335,08-06-21,567-1271 Ullamcorper Av.,FALSE,valide
+330,29-06-21,7300 Quis St.,FALSE,preparation
+386,09-10-21,729-8997 Ac St.,TRUE,preparation
+314,28-07-20,3351 Nibh. Av.,TRUE,preparation
+364,21-06-21,"P.O. Box 275, 5317 Ultricies Rd.",TRUE,preparation
+366,11-12-21,"P.O. Box 683, 3421 Dictum St.",TRUE,valide
+396,30-05-21,"P.O. Box 935, 645 Rutrum Rd.",FALSE,preparation
+393,15-08-20,Ap #695-1679 Phasellus St.,TRUE,preparation
+379,16-08-21,"P.O. Box 305, 341 Nulla Ave",FALSE,preparation
+323,12-03-22,"237-892 Eget, Road",FALSE,preparation
+351,23-12-20,Ap #415-5986 Odio. Avenue,FALSE,preparation
+392,26-02-22,Ap #867-5292 Lorem Rd.,TRUE,valide
+368,26-06-21,"P.O. Box 204, 5503 Quisque Ave",TRUE,valide
+371,03-04-21,6909 Molestie Rd.,TRUE,valide
+361,03-03-21,"P.O. Box 513, 6029 Vitae Rd.",FALSE,preparation
+342,19-12-20,9198 Arcu Street,TRUE,valide
+317,12-02-22,Ap #934-1909 Ligula Ave,TRUE,valide
+309,15-05-20,"P.O. Box 517, 9396 Enim, Street",FALSE,preparation
+365,15-01-22,Ap #538-7514 Consectetuer Rd.,FALSE,preparation
+335,30-04-22,Ap #257-392 Non Rd.,FALSE,valide
+355,29-12-21,Ap #527-8773 Et Road,TRUE,preparation
+361,22-10-21,"P.O. Box 229, 5923 Venenatis Rd.",FALSE,valide
+393,19-05-21,Ap #658-4759 In Rd.,TRUE,preparation
+371,12-02-21,713-8455 Dapibus Rd.,TRUE,valide
+352,10-03-21,Ap #484-995 Gravida Rd.,FALSE,valide
+353,13-01-22,8273 Vestibulum Rd.,TRUE,valide
+322,27-11-21,141-443 Aenean St.,FALSE,valide
+363,31-07-21,719-7183 Dolor. Road,TRUE,valide
+356,23-02-22,Ap #837-8708 Mollis. Road,FALSE,preparation
+372,11-07-20,123-6244 Morbi Av.,FALSE,preparation
+354,08-04-21,Ap #338-5504 Cursus St.,FALSE,preparation
+341,13-04-21,"P.O. Box 208, 4605 Ipsum. Street",FALSE,valide
+398,01-07-21,"P.O. Box 388, 6394 Ipsum St.",FALSE,valide
+339,17-02-22,2350 Curae; Road,TRUE,valide
+382,25-05-20,896-4576 Penatibus St.,FALSE,preparation
+392,07-01-21,Ap #124-7756 Dignissim Ave,TRUE,preparation
+338,03-07-20,"P.O. Box 289, 6320 Vitae Avenue",TRUE,valide
+302,13-06-21,Ap #501-6126 Lorem Street,FALSE,preparation
+333,01-06-21,9658 Dictum Road,FALSE,valide
+326,07-01-22,1979 Adipiscing. Road,TRUE,preparation
+361,14-10-20,"P.O. Box 479, 7991 Velit Rd.",TRUE,valide
+326,02-04-21,"P.O. Box 335, 818 Feugiat Rd.",TRUE,preparation
+363,06-10-21,"Ap #175-2962 Tempus, Ave",FALSE,valide
+351,12-09-21,"P.O. Box 298, 6147 Scelerisque Avenue",FALSE,valide
+379,21-07-21,"P.O. Box 558, 711 Donec Ave",TRUE,valide
+315,25-05-21,6550 Imperdiet Avenue,FALSE,valide
+325,16-05-20,788-6687 Nullam Av.,FALSE,preparation
+351,01-03-22,"P.O. Box 815, 1641 Non, Ave",TRUE,preparation
+360,01-08-20,960-6334 Ipsum Av.,FALSE,valide
+335,27-11-21,"P.O. Box 629, 964 Augue St.",FALSE,preparation
+391,03-03-21,"P.O. Box 326, 8319 Dolor St.",FALSE,preparation
+308,29-10-21,1963 Sed Av.,TRUE,valide
+318,14-09-21,"P.O. Box 248, 123 Aenean Rd.",TRUE,valide
+337,26-04-22,816-205 Feugiat Road,FALSE,valide
+322,12-06-21,"P.O. Box 729, 5858 Risus. Avenue",TRUE,preparation
+351,01-12-21,741-2233 Donec Avenue,FALSE,preparation
+391,01-07-21,"3727 A, Av.",FALSE,valide
+313,23-08-21,Ap #648-3615 Lectus Street,TRUE,preparation
+352,01-10-21,9629 Neque. Rd.,FALSE,valide
+300,27-12-20,837-3039 Semper. Av.,TRUE,preparation
+310,22-01-21,430-5746 Vivamus Street,FALSE,preparation
+332,15-02-21,9864 At St.,TRUE,valide
+313,23-04-22,"P.O. Box 457, 1237 Quis St.",FALSE,preparation
+396,16-02-22,"P.O. Box 659, 9440 Non Rd.",FALSE,valide
+351,07-09-21,"P.O. Box 200, 8144 Mauris St.",TRUE,valide
+355,24-03-21,2436 Adipiscing Road,FALSE,preparation
+302,02-08-20,1031 Lacus Road,FALSE,preparation
+386,01-01-21,1568 Eget Street,TRUE,preparation
+332,17-05-21,Ap #609-518 Tellus. Rd.,TRUE,valide
+329,28-05-21,812-3125 Semper Avenue,TRUE,valide
+302,04-05-20,293-304 Pellentesque Rd.,TRUE,valide
+382,22-12-21,Ap #546-7676 Eu Rd.,TRUE,preparation
+373,14-06-21,"7112 Magna, Road",TRUE,valide
+312,14-05-20,"P.O. Box 280, 5833 Pellentesque St.",TRUE,preparation
+328,25-06-20,"P.O. Box 531, 2952 Vestibulum Rd.",FALSE,preparation
+311,30-06-20,3845 Donec Road,TRUE,valide
+396,10-09-20,Ap #307-9242 Ante. Rd.,FALSE,valide
+375,10-01-21,3276 Donec Rd.,TRUE,preparation
+363,21-02-21,8701 Eu St.,TRUE,preparation
+306,17-03-21,Ap #159-7920 Sodales Avenue,FALSE,preparation
+381,23-06-20,"P.O. Box 699, 4368 Tincidunt Road",TRUE,valide
+318,09-03-21,"Ap #960-3236 At, Rd.",FALSE,preparation
+347,08-03-22,Ap #418-1957 Risus Ave,FALSE,valide
+340,26-02-21,435-9425 Cursus Avenue,FALSE,valide
+389,08-01-21,"P.O. Box 276, 5920 Ullamcorper, St.",FALSE,valide
+400,27-12-20,171 Mus. St.,TRUE,valide
+327,06-03-22,"P.O. Box 541, 8854 Aliquet St.",TRUE,valide
+332,24-05-20,810-9523 Bibendum. Street,TRUE,valide
+382,20-04-21,6918 Nam Ave,TRUE,preparation
+359,23-10-21,1635 Mollis St.,FALSE,preparation
+339,20-07-21,3967 A Road,FALSE,preparation
+300,25-09-21,Ap #232-4378 Lacus Street,FALSE,valide
+398,22-07-21,Ap #792-3841 Turpis Road,TRUE,valide
+375,01-07-20,463 Sem Avenue,TRUE,preparation
+368,22-12-21,Ap #939-9878 Mollis Ave,TRUE,valide
+308,08-07-21,"875-4531 Urna, Rd.",TRUE,preparation
+336,12-06-21,"P.O. Box 381, 1104 Ad Rd.",FALSE,preparation
+360,14-03-21,"P.O. Box 366, 5851 Quisque St.",FALSE,valide
+388,30-01-21,"P.O. Box 552, 214 Elit. Rd.",FALSE,preparation
+339,08-07-20,Ap #916-1543 Sit St.,TRUE,valide
+305,19-05-20,Ap #450-4393 Semper. Av.,TRUE,valide
+332,26-09-20,157-2309 Sed Avenue,FALSE,valide
+368,13-09-21,"P.O. Box 935, 4270 Gravida Rd.",TRUE,valide
+321,04-01-22,"P.O. Box 289, 4731 Lorem Rd.",TRUE,valide
+301,30-11-21,"P.O. Box 389, 1722 Sapien, Street",TRUE,preparation
+372,15-11-20,885-8548 Tempor St.,FALSE,preparation
+345,28-01-22,320 Morbi St.,FALSE,valide
+361,29-10-20,4125 Curabitur Avenue,FALSE,valide
+331,24-07-21,Ap #392-6344 Nibh Av.,FALSE,valide
+321,01-12-21,"6957 Posuere, Av.",FALSE,preparation
+371,01-09-21,3361 Cubilia Avenue,TRUE,valide
+308,08-02-21,Ap #276-3090 Nulla St.,TRUE,preparation
+357,19-10-20,"P.O. Box 383, 6287 Amet Street",TRUE,valide
+330,14-04-21,2677 Sem Av.,TRUE,valide
+329,27-12-20,5518 Dis Ave,TRUE,valide
+333,27-05-20,"5124 Posuere, Avenue",FALSE,preparation
+392,17-10-21,"P.O. Box 465, 3038 Tellus Ave",FALSE,preparation
+304,21-08-21,"916-7978 Non, Rd.",TRUE,preparation
+396,30-06-21,300 Congue Street,FALSE,valide
+315,24-10-21,226-2228 Nunc Rd.,TRUE,valide
+397,25-12-20,Ap #312-9261 Cursus Street,FALSE,valide
+325,30-11-20,Ap #969-7304 Arcu Rd.,TRUE,preparation
+355,23-06-20,256-2180 Ut St.,TRUE,valide
+372,07-11-20,146-6015 Nisl Avenue,TRUE,preparation
+313,23-02-21,1901 Eu Rd.,FALSE,valide
+395,20-04-22,Ap #187-477 Mi Rd.,TRUE,preparation
+362,21-10-20,"P.O. Box 489, 2547 Sit Road",TRUE,valide
+303,26-03-22,4390 Lacinia. Rd.,TRUE,preparation
+380,22-06-21,987-5609 Cras Rd.,FALSE,preparation
+380,25-08-21,7701 Tempus Road,TRUE,valide
+358,19-10-20,"P.O. Box 375, 2810 Diam Ave",FALSE,preparation
+399,12-07-20,"P.O. Box 358, 3504 Faucibus St.",TRUE,preparation
+305,28-07-20,Ap #529-653 Nullam Street,TRUE,preparation
+356,09-10-20,"P.O. Box 929, 9364 Sem Ave",TRUE,preparation
+399,25-09-21,"P.O. Box 571, 8919 Et, Road",FALSE,preparation
+322,11-12-21,338-6252 Erat. St.,TRUE,preparation
+308,11-06-21,Ap #692-3581 Ut St.,FALSE,valide
+375,02-09-21,Ap #722-7315 Interdum. Rd.,FALSE,preparation

@@ -1,0 +1,54 @@
+id_order,montant,statut,date_retour,date_delai,raison
+51,4,remboursé,02-11-22,19-01-23,aime pas
+61,2,remboursé,20-11-22,23-12-22,aime pas
+8,5,remboursé,20-11-22,10-01-23,taille
+69,5,remboursé,13-11-22,10-01-23,mauvais état
+37,1,en cours, 30-11-22,26-12-22,aime pas
+83,1,remboursé,02-12-22,18-01-23,aime pas
+22,2,remboursé,14-12-22,03-01-23,taille
+19,3,remboursé,09-12-22,30-12-22,aime pas
+52,1,remboursé,11-11-22,19-01-23,taille
+13,1,remboursé,03-11-22,01-02-23,aime pas
+65,4,remboursé,19-11-22,22-12-22,taille
+96,1,remboursé,21-10-22,23-01-23,aime pas
+31,3,remboursé,06-12-22,06-01-23,mauvais état
+32,4,en cours, 05-12-22,30-12-22,taille
+40,1,remboursé,09-12-22,13-01-23,taille
+333,10,en cours,21-09-22,03-01-23,taille
+236,9,remboursé,27-11-22,04-01-23,taille
+211,1,en cours,27-09-22,18-03-23,taille
+469,7,en cours,16-09-22,26-01-23,taille
+422,6,remboursé,29-09-22,01-02-23,aime pas
+437,5,remboursé,13-11-22,23-01-23,mauvais état
+383,7,en cours,19-09-22,17-04-23,mauvais état
+442,6,remboursé,11-10-22,31-03-23,mauvais état
+157,5,remboursé,22-10-22,26-03-23,mauvais état
+431,6,remboursé,19-10-22,07-02-23,taille
+138,7,remboursé,24-09-22,28-03-23,aime pas
+205,6,en cours,19-09-22,09-02-23,mauvais état
+465,9,remboursé,02-11-22,26-03-23,taille
+261,2,en cours,04-10-22,19-03-23,taille
+268,7,remboursé,22-09-22,10-01-23,aime pas
+177,8,en cours,15-10-22,27-03-23,mauvais état
+199,1,en cours,01-12-22,05-04-23,mauvais état
+216,8,remboursé,07-11-22,09-03-23,aime pas
+384,5,remboursé,30-11-22,27-03-23,aime pas
+379,3,en cours,15-09-22,17-03-23,mauvais état
+372,9,en cours,26-11-22,30-01-23,aime pas
+456,3,remboursé,18-09-22,13-05-23,aime pas
+165,3,en cours,11-11-22,19-01-23,mauvais état
+101,8,en cours,12-10-22,10-02-23,aime pas
+220,5,remboursé,06-10-22,18-01-23,taille
+262,9,en cours,08-10-22,13-01-23,taille
+488,7,remboursé,23-09-22,23-03-23,taille
+196,6,remboursé,29-10-22,23-04-23,taille
+227,6,en cours,19-09-22,30-01-23,aime pas
+288,5,en cours,22-09-22,09-03-23,taille
+132,6,remboursé,12-11-22,11-01-23,mauvais état
+448,10,en cours,01-12-22,15-04-23,taille
+370,8,en cours,10-10-22,08-05-23,mauvais état
+414,7,en cours,10-11-22,17-03-23,aime pas
+444,1,remboursé,30-09-22,15-03-23,aime pas
+102,8,remboursé,25-10-22,21-03-23,mauvais état
+458,9,en cours,20-09-22,03-01-23,taille
+477,3,remboursé,02-10-22,21-01-23,mauvais état

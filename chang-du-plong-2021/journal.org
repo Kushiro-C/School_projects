@@ -1,0 +1,38 @@
+Patrick Chang 71802046 patrickchang75@gmail.com
+
+Vincent Du    71801856 vincent2222z64@gmail.com
+
+<09/12/2021>
+* Sujet: Ampoule intelligente 
+* TODO:
+- réfléchir sur comment séparer la voix de la musique
+- construire une base de données avec des styles prédéfinis de musique
+- compréhension de la transformée de Fourier
+- extraire des informations à partir d'une musique: est-ce qu'il y a une voix ou pas, quel est le rythme, ...
+- détecter le rythme principal de la musique (bpm)
+
+<01/02/2022>
+* FAIT: 
+- implémentation de FFT
+- construction de la base de données
+- proof of concept
+* TODO:
+- réfléchir à une normalisation de la piste de musique/son pour palier au problème de micro
+- séparation musique et voix
+- classification de genre
+
+<22/02/2022>
+* FAIT:
+- moins de grésillement / normalisation des pistes
+- début d'algo pour la détection de voix
+- rajout de couleurs pour un passage plus lisse
+* TODO:
+- implémenter la detection / séparation de voix
+- faire le lien avec l'ampoule
+
+<22/03/2022>
+* FAIT:
+- connexion du matériel
+- algo de detection de voix (difficulté pour la detection de la voix chantée)
+* TODO:
+- optimisation de l'algo de detection de voix

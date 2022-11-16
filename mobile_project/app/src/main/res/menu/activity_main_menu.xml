@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_options"
+        android:title=""
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/waterPlants"
+                android:title="@string/plantsToWater"
+                android:icon="@drawable/watering_icon"
+                app:showAsAction="withText" />
+            <item
+                android:id="@+id/quitter"
+                android:title="@string/quit"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>

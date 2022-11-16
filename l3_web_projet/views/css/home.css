@@ -1,0 +1,140 @@
+/*.description{
+    float: right;
+    background-color: aqua;
+	margin: 25px 0px;
+}*/
+body {
+    background-color: rgb(226, 226, 226);
+}
+
+.link_button {
+    border           : none;
+    outline          : none;
+    background       : none;
+    cursor           : pointer;
+    padding          : 0;
+    color            : #e48b06;
+    /*text-decoration: underline;*/
+    font-family      : inherit;
+    font-size        : inherit;
+}
+
+#publication {
+    /* bloc qui prend les profils affichés */
+    position     : relative;
+    padding      : 60px;
+    width        : 90%;
+    left         : 50%;
+    /* centre par rapport à gauche du bloc */
+    -ms-transform: translateX(-50%);
+    transform    : translateX(-50%);
+    /* centre par rapport au centre du bloc */
+}
+
+
+.bloc_post {
+    /* blocs contenant les profils */
+    position    : relative;
+    width       : 95%;
+    padding     : 15px 20px;
+    margin-top  : 50px;
+    float       : right;
+    border-left : 1px dashed #333333;
+    border-right: 1px dashed #333333;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bloc_post:hover {
+    /* color       : #e48b06; */
+    border-left : 1px dashed #e48b06;
+    border-right: 1px dashed #e48b06;
+}
+
+.myImgs {
+
+    position       : relative;
+    display        : inline;
+    text-decoration: none;
+    float          : left;
+    font-size      : 30px;
+    color          : #cc3333;
+    margin         : 25px 0px;
+}
+
+.description {
+    position: relative;
+    margin-top : 5%;
+    margin-left: 35%;
+}
+
+.description tr {
+    margin-top: 0px;
+}
+
+.description td {
+    display    : inline;
+    border-left: 1px dashed #cc3333;
+    padding    : 10px 25px 10px 25px;
+}
+
+.checkvalid {
+    border-radius: 24px;
+    border       : 2px solid black;
+    transition   : 0.2s;
+}
+
+.checkvalid:hover {
+
+    transition: 0.2s;
+}
+
+.checkvalid input:invalid+span:after {
+    content     : '✖';
+    padding-left: 5px;
+}
+
+.checkvalid input:valid+span:after {
+    content     : '✓';
+    padding-left: 5px;
+}
+
+textarea {
+    resize : none;
+    width  : calc(100% -10px);
+    padding: 10px;
+}
+
+.bouton_publier {
+    margin-top: 10px;
+    transition: 0.2s;
+    border: none;
+    color: black;
+    background-color: white;
+    box-shadow: 0px 3px 15px rgba(99, 107, 104, 0.2);
+}
+
+.bouton_publier:hover {
+    margin-top: 10px;
+    transition: 0.2s;
+    color: white;
+    background-color: black;
+}
+
+#sidebarMenu {
+    margin-top: 20px;
+}
+
+#search_input {
+    margin-left: 20px;
+    padding-left: 15px;
+}
+
+.like:hover, .dislike:hover {
+    font-weight: bold;
+}
+
+#pname {
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+}

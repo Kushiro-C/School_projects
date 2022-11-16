@@ -1,0 +1,11 @@
+id_client, date_cmd, adr_livraison,payee,etat
+34,29-05-21,"P.O. Box 449, 5747 Ligula Street",TRUE,valide
+24,27-01-21,183-5865 Cras Ave,TRUE,valide
+70,05-06-20,Ap #433-7530 Mauris Rd.,TRUE,preparation
+85,02-07-20,9543 Purus Ave,TRUE,valide
+14,17-02-21,5394 Dui. Av.,FALSE,valide
+35,29-11-20,6621 Dictum Rd.,FALSE,valide
+36,24-11-21,546-1585 Vivamus St.,FALSE,valide
+9, 24-09-21,"P.O. Box 810,5640 Varius Ave",FALSE,valide
+64,13-03-22,"P.O. Box 449, 9533 Cubilia Road",TRUE,preparation
+96,16-12-21,Ap #595-9938 Ut Avenue,FALSE,valide

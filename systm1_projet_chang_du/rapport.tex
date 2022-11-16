@@ -1,0 +1,151 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french,english]{babel}
+
+%% This package is necessary to use \includegraphics.
+\usepackage{graphicx}
+
+%% This package is necessary to define hyperlinks.
+\usepackage{hyperref}
+
+%% These packages are necessary to include code.
+\usepackage{listings}
+\usepackage{minted} % colored
+
+%% This package is needed to enchance mathematical formulas.
+\usepackage{amsmath}
+
+
+
+% This is a comment line in latex
+
+% Latex allows you to define your own "commands",
+% better known as "macros" in the Latex world.
+% The following line is an example of such definition.
+\newcommand{\latex}{\LaTeX}
+
+
+% The next lines contain some meta informations about this document.
+\selectlanguage{french}
+\title{Rapport Projet système\\ Pour le xx Mai 2022}
+%\subtitle{A minimal demonstration of \latex}
+
+\author{Chang Patrick, Du Vincent}
+
+
+%% Here we begin giving the actual content o the document.
+\begin{document}
+\maketitle
+
+\selectlanguage{french}
+
+\section{Introduction}
+Le but du projet est d’implémenter les files de messages pour une communication entre
+processus tournant sur la même machine. Nous avons terminé le sujet initial avec l'extension 1 et 2.
+Nos files sont donc compactées et peuvent recevoir plus de messages que prévus.
+
+Le travail a été souvent fait sur une même machine (ne pas prendre en compte le nom de l'auteur de chaque commit).
+Notre équipe étant composée de 2 personnes :
+
+\begin{itemize}
+\item {\bf CHANG Patrick}, étudiant en M1 IMPAIRS à l'Université de Paris
+\item {\bf DU Vincent}, étudiant en M1 IMPAIRS à l'Université de Paris
+\end{itemize}
+
+\section{NOS PREMIERS CHOIX :}
+
+Nos premiers choix se portent tout d'habord sur le fichier {\tt m\_file.h}.
+Une structure {\tt message\_enreg} permet de représenter les messages.
+Cette structure contient un {\tt int size} (taille), un {\tt long type} (le type ex: pid),
+{\tt char mtext[]} (le message en lui-même).
+La taille permet de pouvoir compacter la file et de naviguer dans chaque message.
+
+La structure {\bf ma\_file} représente la file. Elle contient les éléments demandés dans le sujet.
+Nous n'avons pas utilisé de tableau circulaire ni l'element {\tt first}
+car l'extension 1 ne le permet pas(compactage).
+Dans cette structure nous avons fait le choix d'utiliser {\tt un mutex et 2 pthread\_cond\_t}.
+En effet, les {\tt mutex} sont difficiles à vérifier(énormément de vérifications IF) mais
+moins facile de se tromper. Les 2 {\tt pthread\_cond\_t} permettent de résoudre le problème
+du lecteur et de l'écrivain.
+{\bf ma\_file} contient une variable {\tt size} précisant la taille des données écrites. Cela nous permettra
+de nous déplacer directement à la fin du message. Il faut alors faire attention à bien
+noter la bonne taille en octet.
+
+La structure {\bf MESSAGE} est bien séparée de la file pour permettre
+différents modes.
+
+
+\section{LES FONCTIONS :}
+
+{\tt m\_connexion} permet la connexion et la création d'une file de messages.
+Pour prendre différents nombres de paramètres nous avons utilisé une va\_list.
+Lorsque nous créons une nouvelle file, nous donnons à l'objet en mémoire partagé
+une taille maximale possible par rapport au nombre maximum de messages stockables.
+C'est dans cette fonction que nous initialisons le {\tt mutex} et les 2 conditions du {\tt mutex}.
+
+
+{\tt m\_deconnexion} fait un appel à la fonction unmmap sur la file du MESSAGE.
+
+
+{\tt m\_destruction} détruit la file grâce à shm\_unlink.
+
+
+{\tt m\_envoi et m\_reception} partent du même principe.
+Nous initialisons toutes les variables en dehors du {\tt mutex\_lock}.
+Nous vérifions si l'appel est bloquant. Si c'est le cas, les 2 variables
+conditions rentrent en jeu, sinon nous sortons directement de la fonction.
+
+
+{\tt m\_envoi} place le nouveau message à la fin en ulisant la variable {\tt size} de {\bf ma\_file}.
+{\tt m\_reception} supprime le message bien couvre le vide en compactant les autres messages.
+Une fois le bon emplacement trouvé les 2 fonctions changent directement les données
+pointées par le pointeur grace au mmap.
+
+Nous utilisons le {\tt mutex} lors de la création et de la suppression d'un {\tt message\_enreg}.
+Et lors du parcours des messages car un message peut être
+supprimé par un autre processus d'autant plus que les messages sont compactés
+(pas de tableau circulaire).
+
+Le getter {\tt m\_nb} est entouré de lock car il fait partie de la file et c'est une variable
+pouvant être modifiée.
+
+\section{TESTS : }
+
+Le fichier {\tt normalTest.c} contient différents tests sans autres processus.
+Il test la création, la destruction, la deconnexion d'une file, l'envoi et
+la reception d'un message.
+
+Le fichier {\tt forkTest.c} contient différents tests entre plusieurs processus en mode bloquant.
+
+Le fichier {\tt tests.c} contient les 2 précédents tests.
+
+Le fichier {\tt forkTest2.c} contient différents tests entre plusieurs processus en non bloquant.
+
+Le fichier {\tt forkTest3.c} contient un seul test bloquant.
+
+Le fichier {\tt ext2Test.c} contient un test pour l'extension 2.
+
+\section{EXTENSION : }
+
+Nous avons réalisé l'extension 1 en stockant pour chaque message leurs tailles et
+en donnant à la structure {\bf ma\_file} une variable {\tt size}. Ces tailles permettent de compacter le
+tout mais il faut faire très attention à donner la bonne valeur. Nous n'avons donc pas implémenté
+de tableau circulaire.
+
+
+Nous avons réalisé l'extension 2 en rajoutant un tableau contenant les pids et les signaux.
+En utilisant un {\bf volatile sig\_atomic\_t} pour voir si un handler a été activé.
+Lorsqu'un message demandé arrive dans la file on envoie un signal. Il n'est pas pris
+en compte si un autre processus attend le même type de message.
+
+\section{LES PROBLEMES : }
+
+Le plus gros problème rencontré est le calcul de la bonne taille pour chaque message.
+ En effet, lorsque nous manipulons les pointeurs une addition équivaut à prendre la taille
+de la structure et de la rajouter. Or ce que nous voulons c'est simplement rajouter une taille
+précise len. Pour cela nous convertissons le pointeur en un pointeur de {\tt char} car celui-ci
+fait exactement 1 octet. Puis nous reconvertissons le pointeur vers son type de départ.
+
+\end{document}

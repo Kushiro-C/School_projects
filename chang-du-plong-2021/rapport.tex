@@ -1,0 +1,170 @@
+\documentclass{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french,english]{babel}
+
+%% This package is necessary to use \includegraphics.
+\usepackage{graphicx}
+
+%% This package is necessary to define hyperlinks.
+\usepackage{hyperref}
+
+%% These packages are necessary to include code.
+\usepackage{listings}
+\usepackage{minted} % colored
+
+%% This package is needed to enchance mathematical formulas.
+\usepackage{amsmath}
+
+
+
+% This is a comment line in latex
+
+% Latex allows you to define your own "commands",
+% better known as "macros" in the Latex world.
+% The following line is an example of such definition.
+\newcommand{\latex}{\LaTeX}
+
+
+% The next lines contain some meta informations about this document.
+\selectlanguage{french}
+\title{Rapport intermédiaire Projet long\\ Pour le 18 Février 2022}
+%\subtitle{A minimal demonstration of \latex}
+
+\author{Chang Patrick, Du Vincent}
+
+
+%% Here we begin giving the actual content o the document.
+\begin{document}
+\maketitle
+
+\selectlanguage{french}
+
+\section{Introduction}
+La musique fait partie de notre quotidien, elle nous fait plaisir,
+nous donne envie de danser et nous garantit une joie de vivre.
+Nous avons eu l’idée de l’accompagner avec une chose tout aussi présente, la lumière.
+En effet, notre projet consiste en une ampoule intelligente capable de changer de couleur en
+fonction des fréquences de la musique, capable de reconnaitre une voix humaine et de changer
+de couleur vis-à-vis de celle-ci et enfin, capable de reconnaitre le type de musique jouer.
+Tous ceux-ci en temps réel.
+
+
+Notre équipe étant composée de 2 personnes :
+
+\begin{itemize}
+\item {\bf CHANG Patrick}, étudiant en M1 IMPAIRS à l'Université de Paris
+\item {\bf DU Vincent}, étudiant en M1 IMPAIRS à l'Université de Paris
+\end{itemize}
+
+\section{Nos premiers choix}
+\label{sec:latex-examples}
+Afin de réaliser ce projet, nous avons tout d'abord concrétiser un cahier
+des charges reprenant ce qu'on devrait obtenir au final.
+Comment réussir à y parvenir.
+Et une première liste de classes qui nous servira de base,
+comme une classe {\bf Vue} et une classe {\bf Calcul}.
+
+Nous avons décidé d'utiliser {\bf Gitlab} un logiciel de gestion de données
+pour mieux se partager nos travaux et mieux s'organiser.
+Pour organiser le travail, nous avons fait une liste de tâches
+à réaliser par ordre de priorité.
+
+Au début du projet, nous avons pensé à une organisation bien précise des fichiers
+en utilisant {\bf Gradle}, un outil permettant la compilation et la construction de projet. 
+
+
+Tout d'abord un dossier {\bf src/main/java} contenant tous les fichiers codés en {\bf Java}.
+A l'intérieur de ce dossier, puisque nous n’avons pas encore d’ampoule disponible,
+nous avons un fichier {\bf Vue.java} contenant toute la partie graphique du projet..
+Celle-ci nous permettra de simuler une ampoule. {\bf DBFiller.java} lie la base de données locale
+et le projet. Et {\bf Recorder.java} se charge d’enregistrer le son en temps réel.
+Un dossier {\bf src/test/java} contient des tests pour quelques fonctions.
+
+\section{Une ampoule qui réagit à la musique}
+
+Les enregistrements audio sont généralement faits en fonction du temps.
+La transformée de Fourier (FFT) est une opération qui permet de représenter
+des signaux apériodiques en complexes c'est-à-dire avec une partie réelle
+et une partie imaginaire. Ces complexes peuvent eux-mêmes se traduire en fréquences
+(montrer calcul). Cette FFT permet de passer un signal du domaine temporel au domaine fréquentiel.
+Grâce à elle, nous pouvons nous donner une plage de fréquences à traduire en couleurs
+Par exemple les fréquences allant de :
+\begin{itemize}
+  \item de 0hz à 100hz en bleu
+  \item de 100hz à 200hz en cyan
+  \item de 200hz à 300hz en jaune
+  \item de 300hz à 400hz en orange
+  \item de 400hz à 500hz en rouge
+\end{itemize}
+
+Pour ne pas capter des petits bruits indésirables tels que des froissements de papiers,
+nous ne gardons que les fréquences dépassant une certaine magnitude.
+La magnitude d’un nombre complexe est sa distance avec le point d’origine dans son plan complexe.
+Ici, la magnitude est aussi l’amplitude de la fréquence.
+Avec elle on calcule notamment les décibels enregistrés. En limitant la magnitude,
+nous gardons uniquement les fréquences dépassant un certain seuil de décibel.
+
+$$
+magnitude = \sqrt{partie\_reelle^2 + partie\_imaginaire^2}
+$$
+
+\section{Base de données }
+
+Nous utilisons {\bf PostGreSQL} comme système de gestion de base de données.
+Le fichier DataBase.sql une fois exécutée crée automatiquement une nouvelle
+base de données et un nouvel utilisateur sur votre ordinateur.
+Il contient 3 tables, une table {\bf musics(music\_id, name)}, une table {\bf classification(musicid, genre)}
+avec le genre de chaque musique et, une table {\bf  musics\_fingerPr(music\_id, fingerPr)}
+contenant les empreintes digitales de chaque chanson (cf. plus bas: \nameref{marker}).
+
+Les musiques sont classées en différents genres, allant du {\tt soft, médium} jusqu’au {\tt hard}.
+Nous avons réalisé une \href{https://forms.gle/NTLry1uyFKKYFDkL7}{enquête} pour décider où classer chaque musique,
+et garder les tendances sortantes.
+
+Chaque musique est composée de plusieurs fingerprint (un peu comme les empreintes de doigts d’un humain).
+Pour générer ces empreintes nous lisons chaque fichier audio contenu dans le dossier res/music et
+appliquons l'algorithme FFT sur des petits fragments de musique.
+Ces empreintes forment l’identité de la musique. Ensuite, nous séparons les fréquences par
+5 intervalles allant de 40 Hz à 300 Hz. Cette plage de fréquences inclut la plupart
+des tonalités d’instruments et voix que nous retrouvons dans les musiques les plus écoutées.
+Pour chaque intervalle, nous ne gardons que la fréquence ayant la plus grande magnitude,
+c'est-à-dire le plus de décibels. Donc chaque intervalle possède une seule fréquence,
+ce qui nous donne {\bf 5 fréquences} par fragments de musique.
+Nous les stockons dans la base de données comme un type {\tt Double}.
+
+\section{Retrouver le genre d’une musique }
+\label{marker}
+Pour retrouver le genre d’une musique que nous enregistrons en temps réel,
+nous appliquons l’algorithme FFT à un fragment de celle-ci puis nous cherchons dans
+la base de données toutes musiques partageant au moins 90\% d’empreintes
+avec elle; grâce à une requête {\tt SQL}.
+En temps réel, s’il y a une correspondance pour un fragment nous affichons
+son genre sur l’interface graphique.
+
+\section{Les problèmes }
+
+Nous avons rencontré plusieurs difficultés jusqu'à maintenant.
+\begin{enumerate}
+  \item un problème de micro, lors des tests les résultats étaient incompréhensibles.
+  \item Trouver des idées de méthode pour stocker une musique dans une base de données, sous quel format?
+  \item Comment retrouver le genre d’une musique grâce à une base de données?
+  \item Comprendre le résultat de sortie d’une FFT.
+  \item Retirer les bruits de grésillements, et détecter la voix.
+\end{enumerate}
+
+
+\section{Continuité }
+
+Nous n’avons pas encore terminé la détection de voix,
+celle-ci marche lorsqu’il n' y a pas de musique.
+Pour tester nos programmes, nous écoutons le son obtenu après
+l’application d’une FFT et en essayant de retirer les fréquences
+autres qu’une voix. Nous réalisons une normalisation du son pour
+retirer les bruits de grésillements, et homogénéiser les sons.
+Il nous faut aussi choisir de meilleurs couleurs avec une
+animation plus agréable.
+
+
+\end{document}

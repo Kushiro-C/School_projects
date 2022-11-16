@@ -1,0 +1,8 @@
+(ocamllex (modules lexer))
+(menhir (modules parser))
+(executable
+ (name main)
+ (modules main parser ast lexer interpreter interface)
+ (libraries graphics unix)
+ (flags :standard -w -27-26-32-33)
+)
